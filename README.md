@@ -36,6 +36,6 @@ npm install
 
 
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
-[license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE
-[gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
-[gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
+[license]: https://github.com/ungood/clubspot-sdk/blob/main/LICENSE
+[gha-badge]: https://github.com/ungood/clubspot-sdk/actions/workflows/nodejs.yml/badge.svg
+[gha-ci]: https://github.com/ungood/clubspot-sdk/actions/workflows/nodejs.yml

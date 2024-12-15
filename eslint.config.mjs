@@ -24,6 +24,13 @@ export default tseslint.config(
 
     rules: {
       '@typescript-eslint/explicit-function-return-type': 'warn',
+      // Workaround for a bug in eslint: https://github.com/eslint/eslint/issues/19134
+      "@typescript-eslint/no-unused-expressions": [
+        "error",
+        {
+          allowShortCircuit: true,
+        },
+      ],
     },
 
     languageOptions: {
