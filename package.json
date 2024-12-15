@@ -19,12 +19,13 @@
     "prettier": "~3.3",
     "rimraf": "~6.0",
     "ts-api-utils": "~1.3",
+    "tsx": "^4.19.2",
     "typescript": "~5.5",
     "typescript-eslint": "~8.5",
     "vitest": "~2.1"
   },
   "scripts": {
-    "start": "node build/src/main.js",
+    "demo": "tsx scripts/demo.ts",
     "clean": "rimraf coverage build tmp",
     "prebuild": "npm run lint",
     "build": "tsc -p tsconfig.json",
@@ -37,9 +38,11 @@
     "prettier:check": "prettier \"{src,__{tests}__}/**/*.{ts,mts}\" --config .prettierrc --check",
     "test:watch": "vitest unit"
   },
-  "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
+  "author": "Jason Walker <ungood@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "@types/parse": "^3.0.9",
+    "parse": "^5.3.0",
     "tslib": "~2.7"
   },
   "volta": {

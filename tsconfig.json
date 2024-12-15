@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "target": "ES2022",
     "module": "node16",
     "lib": ["ES2022", "DOM"],
     "moduleResolution": "node16",
     "rootDir": ".",
     "outDir": "build",
+    "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
     "alwaysStrict": true,
@@ -19,5 +20,9 @@
     "noImplicitThis": false,
     "strictNullChecks": false,
   },
-  "include": ["src", "__tests__"]
+  "include": [
+    "src",
+    "scripts",
+    "__tests__"
+  ]
 }

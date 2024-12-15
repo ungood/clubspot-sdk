@@ -21,9 +21,20 @@ cd clubspot-sdk
 npm install
 ```
 
+### Demo
+
+The basic functionality of this library is showcased in `scripts/demo.ts`. In order to run the demo, you need to set
+the CLUBSPOT_EMAIL and CLUBSPOT_PASSWORD environment variables.
+
+```sh
+CLUBSPOT_EMAIL=INSERT_EMAIL_HERE \
+CLUBSPOT_PASSWORD=password1234 \
+npm run demo
+```
 
 ## Available Scripts
 
+- `demo` - Runs a demo of the functionality of this library.
 - `clean` - remove coverage data, cache and transpiled files,
 - `prebuild` - lint source files and tests before building,
 - `build` - transpile TypeScript to ES6,
@@ -36,6 +47,6 @@ npm install
 
 
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
-[license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE
-[gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
-[gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
+[license]: https://github.com/ungood/clubspot-sdk/blob/main/LICENSE
+[gha-badge]: https://github.com/ungood/clubspot-sdk/actions/workflows/nodejs.yml/badge.svg
+[gha-ci]: https://github.com/ungood/clubspot-sdk/actions/workflows/nodejs.yml
