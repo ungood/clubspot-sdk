@@ -1,4 +1,5 @@
 import Parse from "parse/node.js";
+import { UserClub } from "./types.js";
 
 export class Clubspot {
     /**
@@ -23,7 +24,7 @@ export class Clubspot {
     /**
      * Logs into Parse with the given email address and password.
      */
-    public async login(email, password): Promise<Parse.User> {
+  public async login(email: string, password: string): Promise<Parse.User> {
         const users = await this.retrieveUsersByEmail(email);
 
         if (users.length < 1) {
@@ -36,4 +37,14 @@ export class Clubspot {
 
         return Parse.User.logIn(username, password);
     }
+
+  public async findClubsForUser(user: Parse.User): Promise<UserClub[]> {
+    const query = new Parse.Query(UserClub)
+      .equalTo("userObject", user)
+      .include("clubObject")
+      .limit(10);
+
+    return query.find();
+    //return results.map(userClub => userClub.get("clubObject"));
+  }
 }
