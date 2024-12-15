@@ -1,7 +1,7 @@
-import Parse from "parse/node.js";
+import Parse from 'parse/node.js';
 
 export class UserClub extends Parse.Object {
-  static parseClassName = "user_club";
+  static parseClassName = 'user_club';
 
   constructor() {
     super(UserClub.parseClassName);
@@ -9,7 +9,7 @@ export class UserClub extends Parse.Object {
 }
 
 export class Camps extends Parse.Object {
-  static parseClassName = "camps";
+  static parseClassName = 'camps';
 
   constructor() {
     super(Camps.parseClassName);
