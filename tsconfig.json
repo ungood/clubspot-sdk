@@ -4,13 +4,12 @@
     "module": "node16",
     "lib": [
       "ES2022",
-      "ESNext.Decorators",
-      "ES2015.Symbol"
+      "DOM",
+      "ESNext.Decorators"
     ],
     "moduleResolution": "node16",
     "rootDir": ".",
     "outDir": "build",
-    "useDefineForClassFields": false, /* This is needed for property decorators to work as I want them to */
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
     "alwaysStrict": true,

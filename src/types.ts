@@ -1,7 +1,5 @@
 import Parse from 'parse/node.js';
 
-const classNameKey = Symbol("className");
-
 /**
  * Registers a subclass of Parse.Object with Parse. Requires that className be a static property of the class.
  */
