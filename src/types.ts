@@ -3,11 +3,14 @@ import Parse from 'parse/node.js';
 /**
  * Registers a subclass of Parse.Object with Parse. Requires that className be a static property of the class.
  */
-function register<T extends Parse.Object>(clazz: new (options?: any) => T, context: ClassDecoratorContext): void {
+function register<T extends Parse.Object>(
+  clazz: new (options?: any) => T,
+  context: ClassDecoratorContext,
+): void {
   context.addInitializer(() => {
-    const className = (clazz as any)["className"] as string;
+    const className = (clazz as any)['className'] as string;
     if (className === undefined) {
-      throw TypeError("className must be defined on Parse.Objects");
+      throw TypeError('className must be defined on Parse.Objects');
     }
 
     Parse.Object.registerSubclass(className, clazz);
@@ -19,24 +22,27 @@ function register<T extends Parse.Object>(clazz: new (options?: any) => T, conte
  * @param name The field name configured in Parse. Defaults to the accessor's name.
  */
 function field<This extends Parse.Object, Value>(fieldName?: string) {
-  return function (_target: ClassAccessorDecoratorTarget<This, Value>, context: ClassAccessorDecoratorContext<This, Value>) {
+  return function (
+    _target: ClassAccessorDecoratorTarget<This, Value>,
+    context: ClassAccessorDecoratorContext<This, Value>,
+  ) {
     const name = fieldName ?? context.name.toString();
     const result: ClassAccessorDecoratorResult<This, Value> = {
       get: function () {
-        return this.get(name)
+        return this.get(name);
       },
       set: function (value: Value) {
-        this.set(name, value)
+        this.set(name, value);
       },
-    }
+    };
 
     return result;
-  }
+  };
 }
 
 @register
 export class UserClub extends Parse.Object {
-  static className = "user_club";
+  static className = 'user_club';
 
   @field()
   accessor accepted: boolean | undefined;
@@ -47,9 +53,8 @@ export class UserClub extends Parse.Object {
   @field()
   accessor manager: boolean | undefined;
 
-
   @field()
-  accessor permissions: string[]
+  accessor permissions: string[];
 
   constructor() {
     super(UserClub.className);
@@ -58,7 +63,7 @@ export class UserClub extends Parse.Object {
 
 @register
 export class Camp extends Parse.Object {
-  static className = "camps";
+  static className = 'camps';
 
   @field()
   accessor startDate: Date;
@@ -72,7 +77,7 @@ export class Camp extends Parse.Object {
   @field()
   accessor public: boolean;
 
-  @field("waitlist_accepted_logic")
+  @field('waitlist_accepted_logic')
   accessor waitlistAcceptedLogic: boolean;
 
   @field()
@@ -81,4 +86,4 @@ export class Camp extends Parse.Object {
   constructor() {
     super(Camp.className);
   }
-};
+}
