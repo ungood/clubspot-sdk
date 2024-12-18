@@ -35,7 +35,7 @@ export class Clubspot {
     const username = user.getUsername();
     console.debug(`Found user ${username} for email ${email}`);
 
-    return Parse.User.logIn(username, password);
+    return Parse.User.logIn(username!, password);
   }
 
   public async findClubsForUser(user: Parse.User): Promise<UserClub[]> {

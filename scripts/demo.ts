@@ -1,39 +1,38 @@
 import Parse from "parse/node.js";
-import { Camps, Clubspot } from '../src/index.js'
+import { Camp, Clubspot } from '../src/index.js'
 
-const email = process.env.CLUBSPOT_EMAIL;
-const password = process.env.CLUBSPOT_PASSWORD;
+const email = process.env.CLUBSPOT_EMAIL!;
+const password = process.env.CLUBSPOT_PASSWORD!;
 
 async function main(): Promise<void> {
-    const clubspot = new Clubspot();
-    const user = await clubspot.login(email, password);
-    console.log(`Logged in as ${user.getUsername()}`);
+  const clubspot = new Clubspot();
+  const user = await clubspot.login(email, password);
+  console.log(`Logged in as ${user.getUsername()}`);
 
   console.log("Clubs:")
   const userClubs = await clubspot.findClubsForUser(user);
-  await userClubs.forEach(async userClub => {
+  for (const userClub of userClubs) {
     const club = userClub.get("clubObject");
-    const isAdmin = userClub.get("admin");
 
     console.log(club.get("name"));
-    console.log(`- Admin: ${isAdmin}`);
-    console.log(`- Manager: ${userClub.get("manager")}`);
-    console.log(`- Permissions: ${userClub.get("permissions")}`);
+    console.log(`- Admin: ${userClub.admin}`);
+    console.log(`- Manager: ${userClub.manager}`);
+    console.log(`- Permissions: ${userClub.permissions}`);
 
-    if (isAdmin) {
+    if (userClub.admin) {
       console.log("- Camps:");
 
-      const camps = await new Parse.Query(Camps)
+      const camps = await new Parse.Query(Camp)
         .equalTo("archived", false)
         .equalTo("clubObject", club)
         .limit(10)
         .find();
 
-      camps.forEach(camp => {
-        console.log(`  - ${camp.get("name")}`);
-      })
+      for (const camp of camps) {
+        console.log(`  - ${camp.name} - ${camp.startDate}`);
+      }
     }
-  });
+  }
 }
 
 main().catch(console.error);
