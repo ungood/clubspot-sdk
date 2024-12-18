@@ -3,7 +3,7 @@ import Parse from 'parse/node.js';
 /**
  * Registers a subclass of Parse.Object with Parse. Requires that className be a static property of the class.
  */
-function register<T extends Parse.Object>(clazz: new (options?: any) => T, context: ClassDecoratorContext) {
+function register<T extends Parse.Object>(clazz: new (options?: any) => T, context: ClassDecoratorContext): void {
   context.addInitializer(() => {
     const className = (clazz as any)["className"] as string;
     if (className === undefined) {
