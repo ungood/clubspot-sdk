@@ -27,6 +27,7 @@
   "scripts": {
     "codegen": "tsx scripts/codegen.ts",
     "demo": "tsx scripts/demo.ts",
+    "golf-demo": "tsx scripts/golf-demo.ts",
     "clean": "rimraf coverage build tmp",
     "prebuild": "true",
     "build": "tsc -p tsconfig.json",

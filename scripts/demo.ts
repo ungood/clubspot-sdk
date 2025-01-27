@@ -14,7 +14,7 @@ async function main(): Promise<void> {
   for (const userClub of userClubs) {
     const club = userClub.get("clubObject");
 
-    console.log(club.get("name"));
+    console.log(`${club.get("name")} - ${club.id}`);
     console.log(`- Admin: ${userClub.admin}`);
     console.log(`- Manager: ${userClub.manager}`);
     console.log(`- Permissions: ${userClub.permissions}`);
@@ -25,11 +25,13 @@ async function main(): Promise<void> {
       const camps = await new Parse.Query(Camp)
         .equalTo("archived", false)
         .equalTo("clubObject", club)
+        .include("event_tags")
         .limit(10)
         .find();
 
       for (const camp of camps) {
         console.log(`  - ${camp.name} - ${camp.startDate}`);
+        camp.toJSON()
       }
     }
   }
