@@ -1,5 +1,5 @@
 import Parse from 'parse/node.js';
-import { Camp, UserClub } from './types.js';
+import { UserClub } from './types.js';
 
 export class Clubspot {
   /**
