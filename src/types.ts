@@ -83,8 +83,8 @@ export class Camp extends Parse.Object {
   @field()
   accessor pending: boolean;
 
-  @field("event_tags")
-  accessor eventTags: object[]
+  @field('event_tags')
+  accessor eventTags: object[];
 
   constructor() {
     super(Camp.className);
