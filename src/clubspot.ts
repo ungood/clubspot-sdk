@@ -35,8 +35,16 @@ export class Clubspot {
     const username = user.getUsername();
     console.debug(`Found user ${username} for email ${email}`);
 
-    return Parse.User.logIn(username, password);
+    return Parse.User.logIn(username!, password);
   }
+
+  // public async findCamps: Promise<Camp[]> {
+  //   const query = new Parse.Query(UserClub)
+  //     .equalTo('event_tags', "foo")
+  //     .limit(100);
+
+  //   await query.find();
+  // }
 
   public async findClubsForUser(user: Parse.User): Promise<UserClub[]> {
     const query = new Parse.Query(UserClub)

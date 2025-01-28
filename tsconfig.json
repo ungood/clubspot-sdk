@@ -2,11 +2,14 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "node16",
-    "lib": ["ES2022", "DOM"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "ESNext.Decorators"
+    ],
     "moduleResolution": "node16",
     "rootDir": ".",
     "outDir": "build",
-    "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
     "alwaysStrict": true,
@@ -16,9 +19,9 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitAny": false,
-    "noImplicitThis": false,
-    "strictNullChecks": false,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
   },
   "include": [
     "src",

@@ -13,8 +13,8 @@ async function main(): Promise<void> {
  *****/
   dotenv.config({ path: '../.env' });  // make sure there is a .env file in config
 
-  const email = process.env.CLUBSPOT_EMAIL;
-  const password = process.env.CLUBSPOT_PASSWORD;
+  const email = process.env.CLUBSPOT_EMAIL!;
+  const password = process.env.CLUBSPOT_PASSWORD!;
 
   const clubspot = new Clubspot();
   const user = await clubspot.login(email, password);
@@ -47,9 +47,10 @@ async function main(): Promise<void> {
       // Camps
       console.log("- Camps:");
 
-      const camps = await new Parse.Query(Camps)
+      const camps = await new Parse.Query(Camp)
         .equalTo("archived", false)
         .equalTo("clubObject", club)
+        .include("event_tags")
         .limit(10)
         .find();
 
