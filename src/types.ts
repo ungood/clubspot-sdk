@@ -92,10 +92,10 @@ export class Camp extends Parse.Object {
 }
 
 @register
-export class Shifts extends Parse.Object {
-  static parseClassName = 'shifts';
+export class Shift extends Parse.Object {
+  static className = 'shifts';
 
   constructor() {
-    super(Shifts.parseClassName);
+    super(Shift.className);
   }
 }
