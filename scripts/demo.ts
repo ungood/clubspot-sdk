@@ -28,6 +28,7 @@ async function main(): Promise<void> {
     var isAdmin = userClub?.get('admin') ?? false;  // this ensured isAdmin is not undefined
 
     console.log(club.get("name"));
+    console.log(`- Club Id: ${userClub.id}`)
     console.log(`- Admin:  ${isAdmin}`);
     console.log(`- Manager: ${userClub.get("manager")}`);
     console.log(`- Permissions: ${userClub.get("permissions")}`);
