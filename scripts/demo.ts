@@ -1,5 +1,5 @@
 import Parse from "parse/node.js";
-import { Camps, Golf_Schedules, Clubspot } from '../src/index.js'
+import { Camps, Shifts, Clubspot } from '../src/index.js'
 import * as dotenv from "dotenv"
 
 
@@ -93,25 +93,21 @@ async function main(): Promise<void> {
         .limit(10)
         .find();
 
-      console.log(camps);
-
       camps.forEach(camp => {
         console.log(`  - ${camp.get("name")}`);
       });
 
       // Golf
-      console.log("- Golf_Schedules:");
+      console.log("- Shifts:");
 
-      const golf_schedules = await new Parse.Query(Golf_Schedules)
+      const shifts = await new Parse.Query(Shifts)
         .equalTo("archived", false)
         .equalTo("clubObject", club)
         .limit(10)
         .find();
 
-      console.log(golf_schedules);
-
-      golf_schedules.forEach(golf_schedule => {
-        console.log(`  - ${golf_schedule.get("name")}`);
+      shifts.forEach(shift => {
+        console.log(`  - ${shift.get("name")}, ${shift.get("type")}`);
       });
     }
   }

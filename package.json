@@ -42,6 +42,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@types/parse": "^3.0.9",
+    "dotenv": "^16.4.7",
     "parse": "^5.3.0",
     "tslib": "~2.7"
   },

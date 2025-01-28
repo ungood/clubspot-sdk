@@ -16,14 +16,14 @@ export class Camps extends Parse.Object {
   }
 }
 
-export class Golf_Schedules extends Parse.Object {
+export class Shifts extends Parse.Object {
   static parseClassName = 'shifts';
 
   constructor() {
-    super(Golf_Schedules.parseClassName);
+    super(Shifts.parseClassName);
   }
 }
 
-Parse.Object.registerSubclass(Golf_Schedules.parseClassName, Golf_Schedules);
+Parse.Object.registerSubclass(Shifts.parseClassName, Shifts);
 Parse.Object.registerSubclass(Camps.parseClassName, Camps);
 Parse.Object.registerSubclass(UserClub.parseClassName, UserClub);
