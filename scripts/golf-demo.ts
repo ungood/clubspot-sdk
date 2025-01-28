@@ -1,6 +1,5 @@
-import { Clubspot, Courses } from '../src/index.js'
+import { Clubspot } from '../src/index.js'
 import Parse from "parse/node.js";
-import { retrieveGolfAvailability } from "../src/functions.js";
 import * as dotenv from "dotenv"
 
 dotenv.config({ path: '../.env' });  // make sure there is a .env file in config
