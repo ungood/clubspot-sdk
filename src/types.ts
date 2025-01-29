@@ -91,6 +91,7 @@ export class Camp extends Parse.Object {
   }
 }
 
+// Shifts are used for golf schedules
 @register
 export class Shift extends Parse.Object {
   static className = 'shifts';
@@ -99,3 +100,14 @@ export class Shift extends Parse.Object {
     super(Shift.className);
   }
 }
+
+// Golf courses for the club
+@register
+export class Courses extends Parse.Object {
+  static className = 'courses';
+
+  constructor(){
+    super(Courses.className);
+  }
+}
+
