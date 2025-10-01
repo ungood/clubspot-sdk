@@ -1,14 +1,21 @@
-import Parse from 'parse/node.js';
-import { UserClub } from './types.js';
+import Parse, { CommonAttributes } from 'parse/node.js';
+import winston from 'winston';
+
+export interface ClubspotAttributes {
+  
+}
 
 export class Clubspot {
   /**
    * Initializes the Parse SDK to the main Clubspot API.
    */
   public constructor() {
-    Parse.CoreManager.set('SERVER_URL', 'https://theclubspot.com/parse');
-    Parse.initialize('myclubspot2017');
-    console.debug('Parse initialized.');
+    const serverUrl = 'https://theclubspot.com/parse';
+    const applicationId = 'myclubspot2017'
+
+    Parse.CoreManager.set('SERVER_URL', serverUrl);;
+    Parse.initialize(applicationId);
+    winston.debug('Parse initialized', { serverUrl, applicationId });
   }
 
   /**
@@ -33,26 +40,8 @@ export class Clubspot {
 
     const user = users[0] as Parse.User;
     const username = user.getUsername();
-    console.debug(`Found user ${username} for email ${email}`);
+    winston.debug('Logged in', { username, email });
 
     return Parse.User.logIn(username!, password);
-  }
-
-  // public async findCamps: Promise<Camp[]> {
-  //   const query = new Parse.Query(UserClub)
-  //     .equalTo('event_tags', "foo")
-  //     .limit(100);
-
-  //   await query.find();
-  // }
-
-  public async findClubsForUser(user: Parse.User): Promise<UserClub[]> {
-    const query = new Parse.Query(UserClub)
-      .equalTo('userObject', user)
-      .include('clubObject')
-      .limit(10);
-
-    return query.find();
-    //return results.map(userClub => userClub.get("clubObject"));
   }
 }

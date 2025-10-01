@@ -6,7 +6,11 @@
   "engines": {
     "node": ">= 20.8 < 21"
   },
+  "bin": {
+    "clubspot": "./scripts/main.ts"
+  },
   "devDependencies": {
+    "@commander-js/extra-typings": "^13.1.0",
     "@eslint/js": "~9.10",
     "@types/eslint__js": "~8.42",
     "@types/node": "~20",
@@ -25,7 +29,8 @@
     "vitest": "~2.1"
   },
   "scripts": {
-    "codegen": "tsx scripts/codegen.ts",
+    "main": "tsx src/main.ts",
+    "codegen": "tsx scripts/parse-tsgen.ts",
     "demo": "tsx scripts/demo.ts",
     "golf-demo": "tsx scripts/golf-demo.ts",
     "clean": "rimraf coverage build tmp",
@@ -44,9 +49,12 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@types/parse": "^3.0.9",
+    "commander": "^13.1.0",
     "dotenv": "^16.4.7",
     "parse": "^5.3.0",
-    "tslib": "~2.7"
+    "tslib": "~2.7",
+    "winston": "^3.17.0",
+    "winston-console-format": "^1.0.8"
   },
   "volta": {
     "node": "20.17.0"

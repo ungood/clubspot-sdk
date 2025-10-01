@@ -1,0 +1,5813 @@
+{
+  "count": 6,
+  "results": [
+    {
+
+      "application": false,
+      "archived": false,
+      "billing_registration": {
+        "__type": "Object",
+        "ACL": {
+          "qg9FCAJAgb": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "read": true
+          },
+          "role:club_finance_nw6IMf9Bnq": {
+            "read": true
+          }
+        },
+        "amount": 67145,
+        "amount_capturable": 0,
+        "amount_deferred": 0,
+        "amount_received": 67145,
+        "amountPending": 0,
+        "amountRefunded": 0,
+        "application_fee_amount": 0,
+        "className": "billing_registration",
+        "clubObject": {
+          "__type": "Pointer",
+          "className": "clubs",
+          "objectId": "nw6IMf9Bnq"
+        },
+        "createdAt": "2025-02-07T22:07:08.246Z",
+        "currency": "usd",
+        "customer": {
+          "__type": "Object",
+          "ACL": {
+            "qg9FCAJAgb": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_basic_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_finance_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_pos_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_web_nw6IMf9Bnq": {
+              "read": true
+            }
+          },
+          "address": null,
+          "archived": false,
+          "className": "customers",
+          "clubObject": {
+            "__type": "Pointer",
+            "className": "clubs",
+            "objectId": "nw6IMf9Bnq"
+          },
+          "createdAt": "2025-02-07T22:09:35.487Z",
+          "customer_currency": null,
+          "default_source": null,
+          "delinquent": false,
+          "description": "Customer for guest_checkout_1738965994861",
+          "email": "shelly_fujikawa@yahoo.com",
+          "invoice_settings": {
+            "custom_fields": null,
+            "default_payment_method": null,
+            "footer": null,
+            "rendering_options": null
+          },
+          "keywords": [
+            "s",
+            "sh",
+            "she",
+            "shel",
+            "shell",
+            "shelly",
+            "shelly_",
+            "shelly_f",
+            "shelly_fu",
+            "shelly_fuj",
+            "shelly_fuji",
+            "shelly_fujik",
+            "shelly_fujika",
+            "shelly_fujikaw",
+            "shelly_fujikawa",
+            "shelly_fujikawa@",
+            "shelly_fujikawa@y",
+            "shelly_fujikawa@ya",
+            "shelly_fujikawa@yah",
+            "shelly_fujikawa@yaho",
+            "shelly_fujikawa@yahoo",
+            "shelly_fujikawa@yahoo.",
+            "shelly_fujikawa@yahoo.c",
+            "shelly_fujikawa@yahoo.co",
+            "shelly_fujikawa@yahoo.com",
+            "g",
+            "gu",
+            "gue",
+            "gues",
+            "guest",
+            "guest_",
+            "guest_c",
+            "guest_ch",
+            "guest_che",
+            "guest_chec",
+            "guest_check",
+            "guest_checko",
+            "guest_checkou",
+            "guest_checkout",
+            "guest_checkout_",
+            "guest_checkout_1",
+            "guest_checkout_17",
+            "guest_checkout_173",
+            "guest_checkout_1738",
+            "guest_checkout_17389",
+            "guest_checkout_173896",
+            "guest_checkout_1738965",
+            "guest_checkout_17389659",
+            "guest_checkout_173896599",
+            "guest_checkout_1738965994",
+            "guest_checkout_17389659948",
+            "guest_checkout_173896599486",
+            "guest_checkout_1738965994861"
+          ],
+          "name": "guest_checkout_1738965994861",
+          "objectId": "CqjHCO2tFL",
+          "payment_methods": [
+            {
+              "allow_redisplay": "unspecified",
+              "billing_details": {
+                "address": {
+                  "city": null,
+                  "country": null,
+                  "line1": null,
+                  "line2": null,
+                  "postal_code": "98127",
+                  "state": null
+                },
+                "email": null,
+                "name": null,
+                "phone": null
+              },
+              "card": {
+                "brand": "visa",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "pass",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "display_brand": "visa",
+                "exp_month": 12,
+                "exp_year": 2028,
+                "fingerprint": "dMeRih47FOPpxH68",
+                "funding": "credit",
+                "generated_from": null,
+                "last4": "9917",
+                "networks": {
+                  "available": [
+                    "visa"
+                  ],
+                  "preferred": null
+                },
+                "regulated_status": "unregulated",
+                "three_d_secure_usage": {
+                  "supported": true
+                },
+                "wallet": null
+              },
+              "created": 1738966211,
+              "customer": "cus_RjSfEtXA0R49B1",
+              "id": "pm_1QpzkU4TQEm0s4zxGwBC1gz1",
+              "livemode": true,
+              "metadata": {},
+              "object": "payment_method",
+              "type": "card"
+            }
+          ],
+          "phone": null,
+          "preferred_locales": [],
+          "receipt_email": "shelly_fujikawa@yahoo.com",
+          "shipping": null,
+          "sources": [],
+          "stripeAccount": {
+            "__type": "Pointer",
+            "className": "stripeAccounts",
+            "objectId": "JiXkH58wBC"
+          },
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "stripeCustomerID": "cus_RjSfEtXA0R49B1",
+          "updatedAt": "2025-02-07T22:10:12.388Z",
+          "userObjects": [
+            {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "qg9FCAJAgb"
+            }
+          ]
+        },
+        "deferredAmountBilled": 0,
+        "discount": 0,
+        "objectId": "bVYmGcjfZj",
+        "processing_passed_on": 2145,
+        "processingFee": 1977,
+        "registrationObject": {
+          "__type": "Pointer",
+          "className": "registrations",
+          "objectId": "DnHuuYrqYd"
+        },
+        "stripeAccount": {
+          "__type": "Pointer",
+          "className": "stripeAccounts",
+          "objectId": "JiXkH58wBC"
+        },
+        "tax": 0,
+        "updatedAt": "2025-02-07T22:10:19.766Z"
+      },
+      "campObject": {
+        "__type": "Object",
+        "account_guest_non_member": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "ACL": {
+          "*": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "write": true
+          },
+          "role:club_camps_nw6IMf9Bnq": {
+            "write": true
+          },
+          "rPZaZPcoE6": {
+            "write": true
+          }
+        },
+        "application_fees": null,
+        "archived": false,
+        "chartOfAccounts": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "city": "Seattle",
+        "className": "camps",
+        "cloned_from": {
+          "__type": "Pointer",
+          "className": "camps",
+          "objectId": "7bL0z6EPAx"
+        },
+        "clubObject": {
+          "__type": "Object",
+          "accounting_defaults": {
+            "camps": {
+              "guest_non_member": "R2poFtxOXR",
+              "sales": "R2poFtxOXR"
+            },
+            "regattas": {
+              "guest_non_member": "y5Rz2bm81Z",
+              "sales": "y5Rz2bm81Z"
+            }
+          },
+          "accounting_v2": true,
+          "ach_debit_v2": true,
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "write": true
+            }
+          },
+          "advanced_reporting": true,
+          "asset_clearing": true,
+          "balance_transactions": "none",
+          "billing": {
+            "__type": "Pointer",
+            "className": "billing",
+            "objectId": "CE9479SRc0"
+          },
+          "burgeeURL": "https://d282wvk2qi4wzk.cloudfront.net/nw6IMf9Bnq_burgee_1706126113415",
+          "city": "Seattle",
+          "className": "clubs",
+          "country": "US",
+          "createdAt": "2023-10-18T16:37:39.719Z",
+          "currency": "usd",
+          "custom_pos_items": false,
+          "default_products": {
+            "banquet_deposit": "BbHKj6EnEx",
+            "banquet_prepayment": "9DkTgKld6x",
+            "banquet_service_fee": "XnajnJdXxO",
+            "donation": "A0e0vvPAkv",
+            "invoice_late_fee": "NPFejgEK0g",
+            "membership_application_fees": "EFGRMFzgJM",
+            "membership_minimum": "8uIbSfwmbX",
+            "processing_passed_on": "frKFGE44Zl"
+          },
+          "email": "info@cyccommunitysailing.org",
+          "email_billing": "info@cyccommunitysailing.org",
+          "email_camps": "info@cyccommunitysailing.org",
+          "email_membership": "info@cyccommunitysailing.org",
+          "email_regattas": "info@cyccommunitysailing.org",
+          "hideCampsEntryList": true,
+          "keywords": [
+            "c",
+            "cy",
+            "cyc",
+            "co",
+            "com",
+            "comm",
+            "commu",
+            "commun",
+            "communi",
+            "communit",
+            "community",
+            "ce",
+            "cen",
+            "cent",
+            "cente",
+            "center",
+            "cc",
+            "ccs",
+            "ccsc"
+          ],
+          "last_created_regatta": {
+            "__type": "Date",
+            "iso": "2024-08-16T21:54:43.802Z"
+          },
+          "location": "Seattle, WA",
+          "mailchimpAccount": {
+            "__type": "Object",
+            "accountName": "CYC Community Sailing Center",
+            "ACL": {
+              "JZGxZNQV9n": {
+                "read": true
+              },
+              "role:club_admin_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_basic_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_comms_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_membership_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_web_nw6IMf9Bnq": {
+                "read": true
+              }
+            },
+            "className": "mailchimpAccounts",
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2023-12-15T02:27:57.213Z",
+            "credentials": {
+              "__type": "Pointer",
+              "className": "mailchimpCredentials",
+              "objectId": "DELn4ir0UZ"
+            },
+            "email": "mailchimp@cyccommunitysailing.org",
+            "objectId": "DXE9GjHsIa",
+            "primary_list": {
+              "__type": "Pointer",
+              "className": "email_lists",
+              "objectId": "ouzdwYBuXW"
+            },
+            "superAdmin": {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "JZGxZNQV9n"
+            },
+            "updatedAt": "2023-12-15T02:27:58.517Z"
+          },
+          "membership_settings": {
+            "__type": "Pointer",
+            "className": "club_membership_settings",
+            "objectId": "J1lemT8NJ7"
+          },
+          "name": "CYC Community Sailing Center",
+          "objectId": "nw6IMf9Bnq",
+          "payment_methods": [
+            "card",
+            "ach_debit"
+          ],
+          "print_server_v3": true,
+          "processing_passed_on": {
+            "card": 3.3
+          },
+          "processing_passed_on_dues": {
+            "card": 3.3,
+            "enable_for_member_invoices": true
+          },
+          "qb_auto_sync_v2": true,
+          "qbo_coa_imported": true,
+          "qbo_sync_after": {
+            "__type": "Date",
+            "iso": "2024-01-01T19:30:00.000Z"
+          },
+          "quickbooksAccount": {
+            "__type": "Pointer",
+            "className": "quickbooksAccounts",
+            "objectId": "BMPoJjekm3"
+          },
+          "ses_enabled": true,
+          "state": "WA",
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "subdomain": "cyccommunitysailingcenter",
+          "subtype_printers": true,
+          "superAdmin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "JZGxZNQV9n"
+          },
+          "support_admin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "jsD7H8LARe"
+          },
+          "tax_id": "93-4004507",
+          "tax_v2": true,
+          "timezone": "America/Los_Angeles",
+          "timezoneOffset": -7,
+          "transit_account": true,
+          "updated_address": {
+            "__type": "Date",
+            "iso": "2024-12-30T16:09:01.015Z"
+          },
+          "updatedAt": "2025-01-21T22:02:02.047Z",
+          "web_settings": {
+            "__type": "Pointer",
+            "className": "club_web_settings",
+            "objectId": "Mfr5kuCbTX"
+          },
+          "zip": "98101"
+        },
+        "collect_address": true,
+        "collect_dob": true,
+        "collect_gender": null,
+        "collect_insurance": null,
+        "collect_mobile": true,
+        "collect_parentGuardian": true,
+        "collect_parentGuardian_secondary": true,
+        "collect_pcp": null,
+        "collect_sailNumber": null,
+        "collect_weight": null,
+        "country": "US",
+        "createdAt": "2025-02-06T20:59:56.284Z",
+        "customFieldsArray": [
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "3wI2Uo5qCj"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "CZzHI7IZ7E"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "ZbBleD4enA"
+          }
+        ],
+        "description": null,
+        "email_welcome": {
+          "attachments": [],
+          "content": "<p>Thank you for registering for the CYC Community Sailing Opti Race Team! We&rsquo;re excited to have you join us for a great season of training, racing, and fun on the water.</p>\n<p>For program details, including practice schedules, regatta information, and updates, please visit <a href=\"https://www.cyccommunitysailing.org/program/opti-race-team\" target=\"_blank\" rel=\"noopener\">the Opti Race Team page.</a></p>\n<p>If you have any questions or need assistance, feel free to reach out. Looking forward to seeing you on the water!</p>\n<p>Kind regards,<br /> Jack</p>\n<p>--</p>\n<p>Jack Killalea<br /> Sailing Director<br /> CYC Community Sailing<br /> <a href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a></p>",
+          "enabled": true
+        },
+        "endDate": {
+          "__type": "Date",
+          "iso": "2025-06-06T08:00:00.000Z"
+        },
+        "hide_spots_left": null,
+        "housing": null,
+        "housing_approval": null,
+        "housing_endDate": null,
+        "housing_excluded_clubs": null,
+        "housing_lastChanceDate": null,
+        "housing_startDate": null,
+        "imageCrop": null,
+        "imageURL": "https://d282wvk2qi4wzk.cloudfront.net/7bL0z6EPAx_campLogo_1723749228982",
+        "keywords": [
+          "c",
+          "cc",
+          "ccs",
+          "ccsc",
+          "ce",
+          "cen",
+          "cent",
+          "cente",
+          "center",
+          "co",
+          "com",
+          "comm",
+          "commu",
+          "commun",
+          "communi",
+          "communit",
+          "community",
+          "cy",
+          "cyc",
+          "t",
+          "te",
+          "tea",
+          "team",
+          "r",
+          "ra",
+          "rac",
+          "race",
+          "o",
+          "op",
+          "opt",
+          "opti",
+          "2",
+          "20",
+          "202",
+          "2025",
+          "s",
+          "sp",
+          "spr",
+          "spri",
+          "sprin",
+          "spring"
+        ],
+        "line1": null,
+        "line2": null,
+        "location": "Seattle, WA",
+        "name": "Spring 2025 Opti Race Team",
+        "note": "<p><strong>Opti Race Team Registration Help</strong></p><p>Sailors on the Opti Race Team are placed into one of two fleets: Green Fleet (Intermediate) or Gold Fleet (Advanced). Please contact <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a> for help with registration or to discuss which fleet is the best fit for your sailor. Do not sign up for a fleet you have not been recommended for.</p>",
+        "objectId": "pJ8ESRFQGc",
+        "paymentMethods": null,
+        "pending": false,
+        "public": true,
+        "registration_closed": false,
+        "require_method_on_file": null,
+        "show_participants_on_signup": false,
+        "startDate": {
+          "__type": "Date",
+          "iso": "2025-03-03T08:00:00.000Z"
+        },
+        "state": "WA",
+        "street": "7755 Seaview Ave NW",
+        "superAdmin": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "rPZaZPcoE6"
+        },
+        "updated_address": {
+          "__type": "Date",
+          "iso": "2025-02-06T21:02:41.747Z"
+        },
+        "updatedAt": "2025-02-06T21:48:50.838Z",
+        "waitlist_payments": "deferred",
+        "waitlist_updates": "manual",
+        "zip": "98117"
+      },
+      "campSessionIDArray": [
+        "EgmL56SJpE"
+      ],
+      "classes": [
+        {
+          "__type": "Pointer",
+          "className": "campClasses",
+          "objectId": "4cHwvdnN3M"
+        }
+      ],
+      "clubObject": {
+        "__type": "Pointer",
+        "className": "clubs",
+        "objectId": "nw6IMf9Bnq"
+      },
+      "confirmed_at": {
+        "__type": "Date",
+        "iso": "2025-02-07T22:10:17.034Z"
+      },
+      "createdAt": "2025-02-07T22:07:08.151Z",
+      "eventName": "spring 2025 opti race team",
+      "firstName": "Andrew",
+      "hold_expires": {
+        "__type": "Date",
+        "iso": "2025-02-07T22:19:27.412Z"
+      },
+      "hold_timestamp": 1738966167412,
+      "keywords": [
+        "t",
+        "te",
+        "tea",
+        "team",
+        "r",
+        "ra",
+        "rac",
+        "race",
+        "o",
+        "op",
+        "opt",
+        "opti",
+        "2",
+        "20",
+        "202",
+        "2025",
+        "s",
+        "sp",
+        "spr",
+        "spri",
+        "sprin",
+        "spring",
+        "a",
+        "an",
+        "and",
+        "andr",
+        "andre",
+        "andrew",
+        "c",
+        "ch",
+        "chi",
+        "chin"
+      ],
+      "lastName": "Chin",
+      "members": [],
+      "objectId": "DnHuuYrqYd",
+      "participantNames": [
+        "Andrew Chin"
+      ],
+      "participantsArray": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "qg9FCAJAgb": {
+              "read": true,
+              "write": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "read": true,
+              "write": true
+            }
+          },
+          "city": "Seattle",
+          "className": "participants",
+          "contactsArray": [],
+          "createdAt": "2025-02-07T22:09:25.066Z",
+          "customFieldsArray": [
+            {
+              "customFieldID": "3wI2Uo5qCj",
+              "response": "Robert Eagle Staff Middle School"
+            },
+            {
+              "customFieldID": "CZzHI7IZ7E",
+              "optionsObjectIDsArray": [
+                "WzIJBOratk"
+              ],
+              "optionsStringsArray": [
+                "Asian/Asian American"
+              ]
+            },
+            {
+              "customFieldID": "ZbBleD4enA",
+              "optionObjectID": "23WW2N2oTz",
+              "response": "Multiple seasons on race team and multiple local regattas attended"
+            }
+          ],
+          "DOB": {
+            "__type": "Date",
+            "iso": "2011-08-26T00:00:00.000Z"
+          },
+          "email": "shelly_fujikawa@yahoo.com",
+          "emergencyContact": "Shelly Fujikawa",
+          "emergencyMobile": "9172322212",
+          "emergencyRelationship": "mother",
+          "firstName": "Andrew",
+          "gender": "male",
+          "hostMember": false,
+          "keywords": [
+            "c",
+            "ch",
+            "chi",
+            "chin",
+            "a",
+            "an",
+            "and",
+            "andr",
+            "andre",
+            "andrew"
+          ],
+          "lastName": "Chin",
+          "medical": "none",
+          "medical_allergies": "seasons",
+          "medical_meds": "none",
+          "medical_tetanus": "current",
+          "member_tbd": false,
+          "members": [],
+          "members_external": [],
+          "mobile": "9172322212",
+          "objectId": "9nVsnkixYW",
+          "parentGuardianEmail": "shelly_fujikawa@yahoo.com",
+          "parentGuardianEmail_secondary": "",
+          "parentGuardianMobile": "9172322212",
+          "parentGuardianMobile_secondary": "",
+          "parentGuardianName": "Shelly Fujikawa",
+          "parentGuardianName_secondary": "",
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "DnHuuYrqYd"
+          },
+          "state": "WA",
+          "street": "PO Box 17185",
+          "updatedAt": "2025-02-07T22:09:25.066Z",
+          "zip": "98127"
+        }
+      ],
+      "registration_hold": {
+        "__type": "Pointer",
+        "className": "registration_holds",
+        "objectId": "6vy1mifqd7"
+      },
+      "sessionJoinObjects": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "write": true
+            }
+          },
+          "archived": false,
+          "campClassObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              }
+            },
+            "archived": false,
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campClasses",
+            "clonedFrom": {
+              "__type": "Pointer",
+              "className": "campClasses",
+              "objectId": "cstN3qws3A"
+            },
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2025-02-06T20:59:58.700Z",
+            "description": "<p>Gold Fleet is designed for sailors ages 10-15 who have been on the race team for multiple seasons and are ready to tackle more advanced tactics and strategies while racing competitively in the local race circuit.</p>",
+            "entryCapsArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "QaNe0JYKKH"
+              }
+            ],
+            "entryFeesArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "SDdIJGWqpA"
+              }
+            ],
+            "hidden": false,
+            "keywords": [
+              "u",
+              "un",
+              "und",
+              "unde",
+              "undef",
+              "undefi",
+              "undefin",
+              "undefine",
+              "undefined",
+              "f",
+              "fl",
+              "fle",
+              "flee",
+              "fleet",
+              "g",
+              "go",
+              "gol",
+              "gold"
+            ],
+            "name": "Gold Fleet",
+            "objectId": "4cHwvdnN3M",
+            "productObject": {
+              "__type": "Pointer",
+              "className": "merch",
+              "objectId": "JeJf3iUT1F"
+            },
+            "required_waivers": [
+              {
+                "__type": "Pointer",
+                "className": "waivers",
+                "objectId": "gXFXxrpUyC"
+              }
+            ],
+            "updatedAt": "2025-02-06T21:40:23.598Z"
+          },
+          "campObject": {
+            "__type": "Pointer",
+            "className": "camps",
+            "objectId": "pJ8ESRFQGc"
+          },
+          "campSessionObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              },
+              "role:club_camps_nw6IMf9Bnq": {
+                "write": true
+              },
+              "rPZaZPcoE6": {
+                "write": true
+              }
+            },
+            "allClasses": false,
+            "campClassesArray": [
+              {
+                "__type": "Pointer",
+                "className": "campClasses",
+                "objectId": "4cHwvdnN3M"
+              }
+            ],
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campSessions",
+            "createdAt": "2025-02-06T21:00:00.039Z",
+            "defaultFullCampSession": false,
+            "endDate": {
+              "__type": "Date",
+              "iso": "2025-06-06T07:00:00.000Z"
+            },
+            "name": "Monday and Wednesday",
+            "objectId": "EgmL56SJpE",
+            "startDate": {
+              "__type": "Date",
+              "iso": "2025-03-03T08:00:00.000Z"
+            },
+            "updatedAt": "2025-02-06T21:46:03.392Z"
+          },
+          "className": "registration_campSession",
+          "confirmed_at": {
+            "__type": "Date",
+            "iso": "2025-02-07T22:10:17.034Z"
+          },
+          "createdAt": "2025-02-07T22:07:08.607Z",
+          "held_or_confirmed": 1738966168509,
+          "hold": {
+            "__type": "Pointer",
+            "className": "registration_holds",
+            "objectId": "L5Bmeen5KC"
+          },
+          "hold_expires": {
+            "__type": "Date",
+            "iso": "2025-02-07T22:19:27.412Z"
+          },
+          "hold_timestamp": 1738966168509,
+          "objectId": "CP2GB7igBK",
+          "priority": 0,
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "DnHuuYrqYd"
+          },
+          "status": "confirmed",
+          "updatedAt": "2025-02-07T22:10:17.726Z",
+          "waitlist": false,
+          "waitlist_updates": [
+            {
+              "reason": "initial_status",
+              "timestamp": 1738966217035,
+              "waitlist": false,
+              "waitlist_number": null
+            }
+          ]
+        }
+      ],
+      "sessions": [
+        {
+          "__type": "Pointer",
+          "className": "campSessions",
+          "objectId": "EgmL56SJpE"
+        }
+      ],
+      "status": "confirmed",
+      "subclassesArray": [],
+      "superAdmin": {
+        "__type": "Pointer",
+        "className": "_User",
+        "objectId": "qg9FCAJAgb"
+      },
+      "type": "camp",
+      "updatedAt": "2025-02-07T22:11:19.400Z",
+      "userObjects": [
+        {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "qg9FCAJAgb"
+        }
+      ],
+      "waiver_status": "fully_signed"
+    },
+    {
+      "ACL": {
+        "*": {
+          "read": true
+        },
+        "role:camp_coaches_pJ8ESRFQGc": {
+          "write": true
+        },
+        "W7tfGZGJ1A": {
+          "write": true
+        }
+      },
+      "application": false,
+      "archived": false,
+      "billing_registration": {
+        "__type": "Object",
+        "ACL": {
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "read": true
+          },
+          "role:club_finance_nw6IMf9Bnq": {
+            "read": true
+          },
+          "W7tfGZGJ1A": {
+            "read": true
+          }
+        },
+        "amount": 67145,
+        "amount_capturable": 0,
+        "amount_deferred": 0,
+        "amount_received": 67145,
+        "amountPending": 0,
+        "amountRefunded": 0,
+        "application_fee_amount": 0,
+        "className": "billing_registration",
+        "clubObject": {
+          "__type": "Pointer",
+          "className": "clubs",
+          "objectId": "nw6IMf9Bnq"
+        },
+        "createdAt": "2025-02-07T20:51:48.651Z",
+        "currency": "usd",
+        "customer": {
+          "__type": "Object",
+          "ACL": {
+            "role:club_admin_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_basic_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_finance_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_pos_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_web_nw6IMf9Bnq": {
+              "read": true
+            },
+            "W7tfGZGJ1A": {
+              "read": true
+            }
+          },
+          "address": null,
+          "archived": false,
+          "className": "customers",
+          "clubObject": {
+            "__type": "Pointer",
+            "className": "clubs",
+            "objectId": "nw6IMf9Bnq"
+          },
+          "createdAt": "2025-02-07T20:56:45.799Z",
+          "customer_currency": null,
+          "default_source": null,
+          "delinquent": false,
+          "description": "Customer for Brendan Burns",
+          "email": "brendan.d.burns@gmail.com",
+          "invoice_settings": {
+            "custom_fields": null,
+            "default_payment_method": null,
+            "footer": null,
+            "rendering_options": null
+          },
+          "keywords": [
+            "b",
+            "br",
+            "bre",
+            "bren",
+            "brend",
+            "brenda",
+            "brendan",
+            "brendan.",
+            "brendan.d",
+            "brendan.d.",
+            "brendan.d.b",
+            "brendan.d.bu",
+            "brendan.d.bur",
+            "brendan.d.burn",
+            "brendan.d.burns",
+            "brendan.d.burns@",
+            "brendan.d.burns@g",
+            "brendan.d.burns@gm",
+            "brendan.d.burns@gma",
+            "brendan.d.burns@gmai",
+            "brendan.d.burns@gmail",
+            "brendan.d.burns@gmail.",
+            "brendan.d.burns@gmail.c",
+            "brendan.d.burns@gmail.co",
+            "brendan.d.burns@gmail.com",
+            "bu",
+            "bur",
+            "burn",
+            "burns"
+          ],
+          "name": "Brendan Burns",
+          "objectId": "2hfcuyVybV",
+          "payment_methods": [
+            {
+              "allow_redisplay": "unspecified",
+              "billing_details": {
+                "address": {
+                  "city": null,
+                  "country": null,
+                  "line1": null,
+                  "line2": null,
+                  "postal_code": "98107",
+                  "state": null
+                },
+                "email": null,
+                "name": null,
+                "phone": null
+              },
+              "card": {
+                "brand": "mastercard",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "pass",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "display_brand": "mastercard",
+                "exp_month": 8,
+                "exp_year": 2028,
+                "fingerprint": "f8kPQ3xve6ertofv",
+                "funding": "credit",
+                "generated_from": null,
+                "last4": "8701",
+                "networks": {
+                  "available": [
+                    "mastercard"
+                  ],
+                  "preferred": null
+                },
+                "regulated_status": "unregulated",
+                "three_d_secure_usage": {
+                  "supported": true
+                },
+                "wallet": null
+              },
+              "created": 1738961838,
+              "customer": "cus_RjRUaRAVWz95NQ",
+              "id": "pm_1Qpyby4TQEm0s4zxWuuL7Cge",
+              "livemode": true,
+              "metadata": {},
+              "object": "payment_method",
+              "type": "card"
+            }
+          ],
+          "phone": null,
+          "preferred_locales": [],
+          "receipt_email": "brendan.d.burns@gmail.com",
+          "shipping": null,
+          "sources": [],
+          "stripeAccount": {
+            "__type": "Pointer",
+            "className": "stripeAccounts",
+            "objectId": "JiXkH58wBC"
+          },
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "stripeCustomerID": "cus_RjRUaRAVWz95NQ",
+          "updatedAt": "2025-02-07T20:57:20.182Z",
+          "userObjects": [
+            {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "W7tfGZGJ1A"
+            }
+          ]
+        },
+        "deferredAmountBilled": 0,
+        "discount": 0,
+        "objectId": "tqrmKmxA0A",
+        "processing_passed_on": 2145,
+        "processingFee": 1977,
+        "registrationObject": {
+          "__type": "Pointer",
+          "className": "registrations",
+          "objectId": "bReiAw9SKf"
+        },
+        "stripeAccount": {
+          "__type": "Pointer",
+          "className": "stripeAccounts",
+          "objectId": "JiXkH58wBC"
+        },
+        "tax": 0,
+        "updatedAt": "2025-02-07T20:57:27.194Z"
+      },
+      "campObject": {
+        "__type": "Object",
+        "account_guest_non_member": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "ACL": {
+          "*": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "write": true
+          },
+          "role:club_camps_nw6IMf9Bnq": {
+            "write": true
+          },
+          "rPZaZPcoE6": {
+            "write": true
+          }
+        },
+        "application_fees": null,
+        "archived": false,
+        "chartOfAccounts": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "city": "Seattle",
+        "className": "camps",
+        "cloned_from": {
+          "__type": "Pointer",
+          "className": "camps",
+          "objectId": "7bL0z6EPAx"
+        },
+        "clubObject": {
+          "__type": "Object",
+          "accounting_defaults": {
+            "camps": {
+              "guest_non_member": "R2poFtxOXR",
+              "sales": "R2poFtxOXR"
+            },
+            "regattas": {
+              "guest_non_member": "y5Rz2bm81Z",
+              "sales": "y5Rz2bm81Z"
+            }
+          },
+          "accounting_v2": true,
+          "ach_debit_v2": true,
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "write": true
+            }
+          },
+          "advanced_reporting": true,
+          "asset_clearing": true,
+          "balance_transactions": "none",
+          "billing": {
+            "__type": "Pointer",
+            "className": "billing",
+            "objectId": "CE9479SRc0"
+          },
+          "burgeeURL": "https://d282wvk2qi4wzk.cloudfront.net/nw6IMf9Bnq_burgee_1706126113415",
+          "city": "Seattle",
+          "className": "clubs",
+          "country": "US",
+          "createdAt": "2023-10-18T16:37:39.719Z",
+          "currency": "usd",
+          "custom_pos_items": false,
+          "default_products": {
+            "banquet_deposit": "BbHKj6EnEx",
+            "banquet_prepayment": "9DkTgKld6x",
+            "banquet_service_fee": "XnajnJdXxO",
+            "donation": "A0e0vvPAkv",
+            "invoice_late_fee": "NPFejgEK0g",
+            "membership_application_fees": "EFGRMFzgJM",
+            "membership_minimum": "8uIbSfwmbX",
+            "processing_passed_on": "frKFGE44Zl"
+          },
+          "email": "info@cyccommunitysailing.org",
+          "email_billing": "info@cyccommunitysailing.org",
+          "email_camps": "info@cyccommunitysailing.org",
+          "email_membership": "info@cyccommunitysailing.org",
+          "email_regattas": "info@cyccommunitysailing.org",
+          "hideCampsEntryList": true,
+          "keywords": [
+            "c",
+            "cy",
+            "cyc",
+            "co",
+            "com",
+            "comm",
+            "commu",
+            "commun",
+            "communi",
+            "communit",
+            "community",
+            "ce",
+            "cen",
+            "cent",
+            "cente",
+            "center",
+            "cc",
+            "ccs",
+            "ccsc"
+          ],
+          "last_created_regatta": {
+            "__type": "Date",
+            "iso": "2024-08-16T21:54:43.802Z"
+          },
+          "location": "Seattle, WA",
+          "mailchimpAccount": {
+            "__type": "Object",
+            "accountName": "CYC Community Sailing Center",
+            "ACL": {
+              "JZGxZNQV9n": {
+                "read": true
+              },
+              "role:club_admin_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_basic_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_comms_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_membership_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_web_nw6IMf9Bnq": {
+                "read": true
+              }
+            },
+            "className": "mailchimpAccounts",
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2023-12-15T02:27:57.213Z",
+            "credentials": {
+              "__type": "Pointer",
+              "className": "mailchimpCredentials",
+              "objectId": "DELn4ir0UZ"
+            },
+            "email": "mailchimp@cyccommunitysailing.org",
+            "objectId": "DXE9GjHsIa",
+            "primary_list": {
+              "__type": "Pointer",
+              "className": "email_lists",
+              "objectId": "ouzdwYBuXW"
+            },
+            "superAdmin": {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "JZGxZNQV9n"
+            },
+            "updatedAt": "2023-12-15T02:27:58.517Z"
+          },
+          "membership_settings": {
+            "__type": "Pointer",
+            "className": "club_membership_settings",
+            "objectId": "J1lemT8NJ7"
+          },
+          "name": "CYC Community Sailing Center",
+          "objectId": "nw6IMf9Bnq",
+          "payment_methods": [
+            "card",
+            "ach_debit"
+          ],
+          "print_server_v3": true,
+          "processing_passed_on": {
+            "card": 3.3
+          },
+          "processing_passed_on_dues": {
+            "card": 3.3,
+            "enable_for_member_invoices": true
+          },
+          "qb_auto_sync_v2": true,
+          "qbo_coa_imported": true,
+          "qbo_sync_after": {
+            "__type": "Date",
+            "iso": "2024-01-01T19:30:00.000Z"
+          },
+          "quickbooksAccount": {
+            "__type": "Pointer",
+            "className": "quickbooksAccounts",
+            "objectId": "BMPoJjekm3"
+          },
+          "ses_enabled": true,
+          "state": "WA",
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "subdomain": "cyccommunitysailingcenter",
+          "subtype_printers": true,
+          "superAdmin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "JZGxZNQV9n"
+          },
+          "support_admin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "jsD7H8LARe"
+          },
+          "tax_id": "93-4004507",
+          "tax_v2": true,
+          "timezone": "America/Los_Angeles",
+          "timezoneOffset": -7,
+          "transit_account": true,
+          "updated_address": {
+            "__type": "Date",
+            "iso": "2024-12-30T16:09:01.015Z"
+          },
+          "updatedAt": "2025-01-21T22:02:02.047Z",
+          "web_settings": {
+            "__type": "Pointer",
+            "className": "club_web_settings",
+            "objectId": "Mfr5kuCbTX"
+          },
+          "zip": "98101"
+        },
+        "collect_address": true,
+        "collect_dob": true,
+        "collect_gender": null,
+        "collect_insurance": null,
+        "collect_mobile": true,
+        "collect_parentGuardian": true,
+        "collect_parentGuardian_secondary": true,
+        "collect_pcp": null,
+        "collect_sailNumber": null,
+        "collect_weight": null,
+        "country": "US",
+        "createdAt": "2025-02-06T20:59:56.284Z",
+        "customFieldsArray": [
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "3wI2Uo5qCj"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "CZzHI7IZ7E"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "ZbBleD4enA"
+          }
+        ],
+        "description": null,
+        "email_welcome": {
+          "attachments": [],
+          "content": "<p>Thank you for registering for the CYC Community Sailing Opti Race Team! We&rsquo;re excited to have you join us for a great season of training, racing, and fun on the water.</p>\n<p>For program details, including practice schedules, regatta information, and updates, please visit <a href=\"https://www.cyccommunitysailing.org/program/opti-race-team\" target=\"_blank\" rel=\"noopener\">the Opti Race Team page.</a></p>\n<p>If you have any questions or need assistance, feel free to reach out. Looking forward to seeing you on the water!</p>\n<p>Kind regards,<br /> Jack</p>\n<p>--</p>\n<p>Jack Killalea<br /> Sailing Director<br /> CYC Community Sailing<br /> <a href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a></p>",
+          "enabled": true
+        },
+        "endDate": {
+          "__type": "Date",
+          "iso": "2025-06-06T08:00:00.000Z"
+        },
+        "hide_spots_left": null,
+        "housing": null,
+        "housing_approval": null,
+        "housing_endDate": null,
+        "housing_excluded_clubs": null,
+        "housing_lastChanceDate": null,
+        "housing_startDate": null,
+        "imageCrop": null,
+        "imageURL": "https://d282wvk2qi4wzk.cloudfront.net/7bL0z6EPAx_campLogo_1723749228982",
+        "keywords": [
+          "c",
+          "cc",
+          "ccs",
+          "ccsc",
+          "ce",
+          "cen",
+          "cent",
+          "cente",
+          "center",
+          "co",
+          "com",
+          "comm",
+          "commu",
+          "commun",
+          "communi",
+          "communit",
+          "community",
+          "cy",
+          "cyc",
+          "t",
+          "te",
+          "tea",
+          "team",
+          "r",
+          "ra",
+          "rac",
+          "race",
+          "o",
+          "op",
+          "opt",
+          "opti",
+          "2",
+          "20",
+          "202",
+          "2025",
+          "s",
+          "sp",
+          "spr",
+          "spri",
+          "sprin",
+          "spring"
+        ],
+        "line1": null,
+        "line2": null,
+        "location": "Seattle, WA",
+        "name": "Spring 2025 Opti Race Team",
+        "note": "<p><strong>Opti Race Team Registration Help</strong></p><p>Sailors on the Opti Race Team are placed into one of two fleets: Green Fleet (Intermediate) or Gold Fleet (Advanced). Please contact <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a> for help with registration or to discuss which fleet is the best fit for your sailor. Do not sign up for a fleet you have not been recommended for.</p>",
+        "objectId": "pJ8ESRFQGc",
+        "paymentMethods": null,
+        "pending": false,
+        "public": true,
+        "registration_closed": false,
+        "require_method_on_file": null,
+        "show_participants_on_signup": false,
+        "startDate": {
+          "__type": "Date",
+          "iso": "2025-03-03T08:00:00.000Z"
+        },
+        "state": "WA",
+        "street": "7755 Seaview Ave NW",
+        "superAdmin": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "rPZaZPcoE6"
+        },
+        "updated_address": {
+          "__type": "Date",
+          "iso": "2025-02-06T21:02:41.747Z"
+        },
+        "updatedAt": "2025-02-06T21:48:50.838Z",
+        "waitlist_payments": "deferred",
+        "waitlist_updates": "manual",
+        "zip": "98117"
+      },
+      "campSessionIDArray": [
+        "0JIcvMiJeE"
+      ],
+      "classes": [
+        {
+          "__type": "Pointer",
+          "className": "campClasses",
+          "objectId": "tZlml1i6k8"
+        }
+      ],
+      "clubObject": {
+        "__type": "Pointer",
+        "className": "clubs",
+        "objectId": "nw6IMf9Bnq"
+      },
+      "confirmed_at": {
+        "__type": "Date",
+        "iso": "2025-02-07T20:57:24.735Z"
+      },
+      "createdAt": "2025-02-07T20:51:48.559Z",
+      "eventName": "spring 2025 opti race team",
+      "firstName": "Ethan",
+      "hold_expires": {
+        "__type": "Date",
+        "iso": "2025-02-07T21:06:37.966Z"
+      },
+      "hold_timestamp": 1738961797966,
+      "keywords": [
+        "t",
+        "te",
+        "tea",
+        "team",
+        "r",
+        "ra",
+        "rac",
+        "race",
+        "o",
+        "op",
+        "opt",
+        "opti",
+        "2",
+        "20",
+        "202",
+        "2025",
+        "s",
+        "sp",
+        "spr",
+        "spri",
+        "sprin",
+        "spring",
+        "e",
+        "et",
+        "eth",
+        "etha",
+        "ethan",
+        "b",
+        "bu",
+        "bur",
+        "burn",
+        "burns"
+      ],
+      "lastName": "Burns",
+      "members": [],
+      "objectId": "bReiAw9SKf",
+      "participantNames": [
+        "Ethan Burns"
+      ],
+      "participantsArray": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "read": true,
+              "write": true
+            },
+            "W7tfGZGJ1A": {
+              "read": true,
+              "write": true
+            }
+          },
+          "city": "Seattle",
+          "className": "participants",
+          "contactsArray": [],
+          "createdAt": "2025-02-07T20:56:35.844Z",
+          "customFieldsArray": [
+            {
+              "customFieldID": "3wI2Uo5qCj",
+              "response": "Home school"
+            },
+            {
+              "customFieldID": "CZzHI7IZ7E",
+              "optionsObjectIDsArray": [
+                "ddRz7pywLU"
+              ],
+              "optionsStringsArray": [
+                "White/Caucasian/European"
+              ]
+            },
+            {
+              "customFieldID": "ZbBleD4enA",
+              "optionObjectID": "4BVXAYQlKE",
+              "response": "Some prior sailing experience"
+            }
+          ],
+          "DOB": {
+            "__type": "Date",
+            "iso": "2012-03-19T00:00:00.000Z"
+          },
+          "email": "brendan.d.burns@gmail.com",
+          "emergencyContact": "Brendan Burns",
+          "emergencyMobile": "2065886782",
+          "emergencyRelationship": "Father",
+          "firstName": "Ethan",
+          "gender": "male",
+          "hostMember": false,
+          "keywords": [
+            "b",
+            "bu",
+            "bur",
+            "burn",
+            "burns",
+            "e",
+            "et",
+            "eth",
+            "etha",
+            "ethan"
+          ],
+          "lastName": "Burns",
+          "medical": "None",
+          "medical_allergies": "None",
+          "medical_meds": "None",
+          "medical_tetanus": "8/2/2023",
+          "member_tbd": false,
+          "members": [],
+          "members_external": [],
+          "mobile": "2065886782",
+          "objectId": "DvPu5Nu4Fe",
+          "parentGuardianEmail": "brendan.d.burns@gmail.com",
+          "parentGuardianEmail_secondary": "robinmarysanders@gmail.com",
+          "parentGuardianMobile": "2065886782",
+          "parentGuardianMobile_secondary": "5189865063",
+          "parentGuardianName": "Brendan Burns",
+          "parentGuardianName_secondary": "Robin Sanders",
+          "profileObject": {
+            "__type": "Pointer",
+            "className": "profiles",
+            "objectId": "oHugHaH1mq"
+          },
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "bReiAw9SKf"
+          },
+          "state": "WA",
+          "street": "6044 2nd Ave. NW",
+          "updatedAt": "2025-02-07T20:56:35.844Z",
+          "zip": "98107"
+        }
+      ],
+      "profilesArray": [
+        {
+          "__type": "Pointer",
+          "className": "profiles",
+          "objectId": "oHugHaH1mq"
+        }
+      ],
+      "registration_hold": {
+        "__type": "Pointer",
+        "className": "registration_holds",
+        "objectId": "4QycVHxvO9"
+      },
+      "sessionJoinObjects": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "write": true
+            }
+          },
+          "archived": false,
+          "campClassObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              }
+            },
+            "archived": false,
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campClasses",
+            "clonedFrom": {
+              "__type": "Pointer",
+              "className": "campClasses",
+              "objectId": "jc0IJsMALS"
+            },
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2025-02-06T20:59:59.208Z",
+            "description": "<p>Green Fleet is the perfect next step for sailors ages 9-13 coming out of our summer camps, eager to dive into the rules and tactics of sail racing. Sailors at the end of a season of greeen fleet will be ready to begin sailing on the local Opti Race Circuit.</p>",
+            "entryCapsArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "Oplz2ozonS"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "UuG4L4z6O4"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "0Akj0XVm0P"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "XrmJgSQak4"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "pgGiYCz3Mh"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "I6FRveJGj6"
+              }
+            ],
+            "entryFeesArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "LGh3s1KXFN"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "9orhQ3WuWD"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "ORMTKt631Q"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "zlt22swmx6"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "tjSfNNEBLE"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "huh0242Q2W"
+              }
+            ],
+            "hidden": false,
+            "keywords": [
+              "u",
+              "un",
+              "und",
+              "unde",
+              "undef",
+              "undefi",
+              "undefin",
+              "undefine",
+              "undefined",
+              "f",
+              "fl",
+              "fle",
+              "flee",
+              "fleet",
+              "g",
+              "gr",
+              "gre",
+              "gree",
+              "green"
+            ],
+            "name": "Green Fleet",
+            "objectId": "tZlml1i6k8",
+            "productObject": {
+              "__type": "Pointer",
+              "className": "merch",
+              "objectId": "wWRAVdHR8V"
+            },
+            "required_waivers": [
+              {
+                "__type": "Pointer",
+                "className": "waivers",
+                "objectId": "gXFXxrpUyC"
+              }
+            ],
+            "updatedAt": "2025-02-06T21:40:34.978Z"
+          },
+          "campObject": {
+            "__type": "Pointer",
+            "className": "camps",
+            "objectId": "pJ8ESRFQGc"
+          },
+          "campSessionObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              },
+              "role:club_camps_nw6IMf9Bnq": {
+                "write": true
+              },
+              "rPZaZPcoE6": {
+                "write": true
+              }
+            },
+            "allClasses": false,
+            "campClassesArray": [
+              {
+                "__type": "Pointer",
+                "className": "campClasses",
+                "objectId": "tZlml1i6k8"
+              }
+            ],
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campSessions",
+            "createdAt": "2025-02-06T21:00:00.039Z",
+            "defaultFullCampSession": false,
+            "endDate": {
+              "__type": "Date",
+              "iso": "2025-06-06T07:00:00.000Z"
+            },
+            "name": "Tuesday and Thursday",
+            "objectId": "0JIcvMiJeE",
+            "startDate": {
+              "__type": "Date",
+              "iso": "2025-03-04T08:00:00.000Z"
+            },
+            "updatedAt": "2025-02-06T21:47:06.394Z"
+          },
+          "className": "registration_campSession",
+          "confirmed_at": {
+            "__type": "Date",
+            "iso": "2025-02-07T20:57:24.735Z"
+          },
+          "createdAt": "2025-02-07T20:51:48.962Z",
+          "held_or_confirmed": 1738961799094,
+          "hold": {
+            "__type": "Pointer",
+            "className": "registration_holds",
+            "objectId": "hTHN0ATPwh"
+          },
+          "hold_expires": {
+            "__type": "Date",
+            "iso": "2025-02-07T21:06:37.966Z"
+          },
+          "hold_timestamp": 1738961799094,
+          "objectId": "U3nsIjEtjU",
+          "priority": 0,
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "bReiAw9SKf"
+          },
+          "status": "confirmed",
+          "updatedAt": "2025-02-07T20:57:25.355Z",
+          "waitlist": false,
+          "waitlist_updates": [
+            {
+              "reason": "initial_status",
+              "timestamp": 1738961844735,
+              "waitlist": false,
+              "waitlist_number": null
+            }
+          ]
+        }
+      ],
+      "sessions": [
+        {
+          "__type": "Pointer",
+          "className": "campSessions",
+          "objectId": "0JIcvMiJeE"
+        }
+      ],
+      "status": "confirmed",
+      "subclassesArray": [],
+      "superAdmin": {
+        "__type": "Pointer",
+        "className": "_User",
+        "objectId": "W7tfGZGJ1A"
+      },
+      "type": "camp",
+      "updatedAt": "2025-02-07T21:16:23.039Z",
+      "userObjects": [
+        {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "W7tfGZGJ1A"
+        }
+      ],
+      "waiver_status": "fully_signed"
+    },
+    {
+      "ACL": {
+        "*": {
+          "read": true
+        },
+        "KIAtZxQLbu": {
+          "write": true
+        },
+        "role:camp_coaches_pJ8ESRFQGc": {
+          "write": true
+        }
+      },
+      "application": false,
+      "archived": false,
+      "billing_registration": {
+        "__type": "Object",
+        "ACL": {
+          "KIAtZxQLbu": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "read": true
+          },
+          "role:club_finance_nw6IMf9Bnq": {
+            "read": true
+          }
+        },
+        "amount": 67145,
+        "amount_capturable": 0,
+        "amount_deferred": 0,
+        "amount_received": 67145,
+        "amountPending": 0,
+        "amountRefunded": 0,
+        "application_fee_amount": 0,
+        "className": "billing_registration",
+        "clubObject": {
+          "__type": "Pointer",
+          "className": "clubs",
+          "objectId": "nw6IMf9Bnq"
+        },
+        "createdAt": "2025-02-07T05:26:33.914Z",
+        "currency": "usd",
+        "customer": {
+          "__type": "Object",
+          "ACL": {
+            "KIAtZxQLbu": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_basic_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_finance_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_pos_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_web_nw6IMf9Bnq": {
+              "read": true
+            }
+          },
+          "address": null,
+          "archived": false,
+          "className": "customers",
+          "clubObject": {
+            "__type": "Pointer",
+            "className": "clubs",
+            "objectId": "nw6IMf9Bnq"
+          },
+          "createdAt": "2024-07-29T02:30:53.772Z",
+          "customer_currency": null,
+          "default_source": null,
+          "delinquent": false,
+          "description": "Customer for Shelby Montgomery",
+          "email": "jeffaylesworth@hotmail.com",
+          "invoice_settings": {
+            "custom_fields": null,
+            "default_payment_method": null,
+            "footer": null,
+            "rendering_options": null
+          },
+          "keywords": [
+            "j",
+            "je",
+            "jef",
+            "jeff",
+            "jeffa",
+            "jeffay",
+            "jeffayl",
+            "jeffayle",
+            "jeffayles",
+            "jeffaylesw",
+            "jeffayleswo",
+            "jeffayleswor",
+            "jeffayleswort",
+            "jeffaylesworth",
+            "jeffaylesworth@",
+            "jeffaylesworth@h",
+            "jeffaylesworth@ho",
+            "jeffaylesworth@hot",
+            "jeffaylesworth@hotm",
+            "jeffaylesworth@hotma",
+            "jeffaylesworth@hotmai",
+            "jeffaylesworth@hotmail",
+            "jeffaylesworth@hotmail.",
+            "jeffaylesworth@hotmail.c",
+            "jeffaylesworth@hotmail.co",
+            "jeffaylesworth@hotmail.com",
+            "m",
+            "mo",
+            "mon",
+            "mont",
+            "montg",
+            "montgo",
+            "montgom",
+            "montgome",
+            "montgomer",
+            "montgomery",
+            "s",
+            "sh",
+            "she",
+            "shel",
+            "shelb",
+            "shelby"
+          ],
+          "name": "Shelby Montgomery",
+          "objectId": "1Qvn2WYWzk",
+          "payment_methods": [
+            {
+              "allow_redisplay": "unspecified",
+              "billing_details": {
+                "address": {
+                  "city": null,
+                  "country": null,
+                  "line1": null,
+                  "line2": null,
+                  "postal_code": "98199",
+                  "state": null
+                },
+                "email": null,
+                "name": null,
+                "phone": null
+              },
+              "card": {
+                "brand": "visa",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "unavailable",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "display_brand": "visa",
+                "exp_month": 9,
+                "exp_year": 2026,
+                "fingerprint": "F48iscyWGE9or45U",
+                "funding": "credit",
+                "generated_from": null,
+                "last4": "8553",
+                "networks": {
+                  "available": [
+                    "visa"
+                  ],
+                  "preferred": null
+                },
+                "three_d_secure_usage": {
+                  "supported": true
+                },
+                "wallet": {
+                  "dynamic_last4": null,
+                  "link": {},
+                  "type": "link"
+                }
+              },
+              "created": 1722220316,
+              "customer": "cus_QYr4VIfRq3IUri",
+              "id": "pm_1PhjNQ4TQEm0s4zx9UWsEU2i",
+              "livemode": true,
+              "metadata": {},
+              "object": "payment_method",
+              "type": "card"
+            }
+          ],
+          "phone": null,
+          "preferred_locales": [],
+          "receipt_email": "jeffaylesworth@hotmail.com",
+          "shipping": null,
+          "sources": [],
+          "stripeAccount": {
+            "__type": "Pointer",
+            "className": "stripeAccounts",
+            "objectId": "JiXkH58wBC"
+          },
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "stripeCustomerID": "cus_QYr4VIfRq3IUri",
+          "updatedAt": "2024-07-29T02:31:58.263Z",
+          "userObjects": [
+            {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "KIAtZxQLbu"
+            }
+          ]
+        },
+        "deferredAmountBilled": 0,
+        "discount": 0,
+        "objectId": "TsjM9fAdJh",
+        "processing_passed_on": 2145,
+        "processingFee": 1977,
+        "registrationObject": {
+          "__type": "Pointer",
+          "className": "registrations",
+          "objectId": "PDy16mjg7K"
+        },
+        "stripeAccount": {
+          "__type": "Pointer",
+          "className": "stripeAccounts",
+          "objectId": "JiXkH58wBC"
+        },
+        "tax": 0,
+        "updatedAt": "2025-02-07T05:28:08.890Z"
+      },
+      "campObject": {
+        "__type": "Object",
+        "account_guest_non_member": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "ACL": {
+          "*": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "write": true
+          },
+          "role:club_camps_nw6IMf9Bnq": {
+            "write": true
+          },
+          "rPZaZPcoE6": {
+            "write": true
+          }
+        },
+        "application_fees": null,
+        "archived": false,
+        "chartOfAccounts": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "city": "Seattle",
+        "className": "camps",
+        "cloned_from": {
+          "__type": "Pointer",
+          "className": "camps",
+          "objectId": "7bL0z6EPAx"
+        },
+        "clubObject": {
+          "__type": "Object",
+          "accounting_defaults": {
+            "camps": {
+              "guest_non_member": "R2poFtxOXR",
+              "sales": "R2poFtxOXR"
+            },
+            "regattas": {
+              "guest_non_member": "y5Rz2bm81Z",
+              "sales": "y5Rz2bm81Z"
+            }
+          },
+          "accounting_v2": true,
+          "ach_debit_v2": true,
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "write": true
+            }
+          },
+          "advanced_reporting": true,
+          "asset_clearing": true,
+          "balance_transactions": "none",
+          "billing": {
+            "__type": "Pointer",
+            "className": "billing",
+            "objectId": "CE9479SRc0"
+          },
+          "burgeeURL": "https://d282wvk2qi4wzk.cloudfront.net/nw6IMf9Bnq_burgee_1706126113415",
+          "city": "Seattle",
+          "className": "clubs",
+          "country": "US",
+          "createdAt": "2023-10-18T16:37:39.719Z",
+          "currency": "usd",
+          "custom_pos_items": false,
+          "default_products": {
+            "banquet_deposit": "BbHKj6EnEx",
+            "banquet_prepayment": "9DkTgKld6x",
+            "banquet_service_fee": "XnajnJdXxO",
+            "donation": "A0e0vvPAkv",
+            "invoice_late_fee": "NPFejgEK0g",
+            "membership_application_fees": "EFGRMFzgJM",
+            "membership_minimum": "8uIbSfwmbX",
+            "processing_passed_on": "frKFGE44Zl"
+          },
+          "email": "info@cyccommunitysailing.org",
+          "email_billing": "info@cyccommunitysailing.org",
+          "email_camps": "info@cyccommunitysailing.org",
+          "email_membership": "info@cyccommunitysailing.org",
+          "email_regattas": "info@cyccommunitysailing.org",
+          "hideCampsEntryList": true,
+          "keywords": [
+            "c",
+            "cy",
+            "cyc",
+            "co",
+            "com",
+            "comm",
+            "commu",
+            "commun",
+            "communi",
+            "communit",
+            "community",
+            "ce",
+            "cen",
+            "cent",
+            "cente",
+            "center",
+            "cc",
+            "ccs",
+            "ccsc"
+          ],
+          "last_created_regatta": {
+            "__type": "Date",
+            "iso": "2024-08-16T21:54:43.802Z"
+          },
+          "location": "Seattle, WA",
+          "mailchimpAccount": {
+            "__type": "Object",
+            "accountName": "CYC Community Sailing Center",
+            "ACL": {
+              "JZGxZNQV9n": {
+                "read": true
+              },
+              "role:club_admin_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_basic_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_comms_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_membership_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_web_nw6IMf9Bnq": {
+                "read": true
+              }
+            },
+            "className": "mailchimpAccounts",
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2023-12-15T02:27:57.213Z",
+            "credentials": {
+              "__type": "Pointer",
+              "className": "mailchimpCredentials",
+              "objectId": "DELn4ir0UZ"
+            },
+            "email": "mailchimp@cyccommunitysailing.org",
+            "objectId": "DXE9GjHsIa",
+            "primary_list": {
+              "__type": "Pointer",
+              "className": "email_lists",
+              "objectId": "ouzdwYBuXW"
+            },
+            "superAdmin": {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "JZGxZNQV9n"
+            },
+            "updatedAt": "2023-12-15T02:27:58.517Z"
+          },
+          "membership_settings": {
+            "__type": "Pointer",
+            "className": "club_membership_settings",
+            "objectId": "J1lemT8NJ7"
+          },
+          "name": "CYC Community Sailing Center",
+          "objectId": "nw6IMf9Bnq",
+          "payment_methods": [
+            "card",
+            "ach_debit"
+          ],
+          "print_server_v3": true,
+          "processing_passed_on": {
+            "card": 3.3
+          },
+          "processing_passed_on_dues": {
+            "card": 3.3,
+            "enable_for_member_invoices": true
+          },
+          "qb_auto_sync_v2": true,
+          "qbo_coa_imported": true,
+          "qbo_sync_after": {
+            "__type": "Date",
+            "iso": "2024-01-01T19:30:00.000Z"
+          },
+          "quickbooksAccount": {
+            "__type": "Pointer",
+            "className": "quickbooksAccounts",
+            "objectId": "BMPoJjekm3"
+          },
+          "ses_enabled": true,
+          "state": "WA",
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "subdomain": "cyccommunitysailingcenter",
+          "subtype_printers": true,
+          "superAdmin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "JZGxZNQV9n"
+          },
+          "support_admin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "jsD7H8LARe"
+          },
+          "tax_id": "93-4004507",
+          "tax_v2": true,
+          "timezone": "America/Los_Angeles",
+          "timezoneOffset": -7,
+          "transit_account": true,
+          "updated_address": {
+            "__type": "Date",
+            "iso": "2024-12-30T16:09:01.015Z"
+          },
+          "updatedAt": "2025-01-21T22:02:02.047Z",
+          "web_settings": {
+            "__type": "Pointer",
+            "className": "club_web_settings",
+            "objectId": "Mfr5kuCbTX"
+          },
+          "zip": "98101"
+        },
+        "collect_address": true,
+        "collect_dob": true,
+        "collect_gender": null,
+        "collect_insurance": null,
+        "collect_mobile": true,
+        "collect_parentGuardian": true,
+        "collect_parentGuardian_secondary": true,
+        "collect_pcp": null,
+        "collect_sailNumber": null,
+        "collect_weight": null,
+        "country": "US",
+        "createdAt": "2025-02-06T20:59:56.284Z",
+        "customFieldsArray": [
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "3wI2Uo5qCj"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "CZzHI7IZ7E"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "ZbBleD4enA"
+          }
+        ],
+        "description": null,
+        "email_welcome": {
+          "attachments": [],
+          "content": "<p>Thank you for registering for the CYC Community Sailing Opti Race Team! We&rsquo;re excited to have you join us for a great season of training, racing, and fun on the water.</p>\n<p>For program details, including practice schedules, regatta information, and updates, please visit <a href=\"https://www.cyccommunitysailing.org/program/opti-race-team\" target=\"_blank\" rel=\"noopener\">the Opti Race Team page.</a></p>\n<p>If you have any questions or need assistance, feel free to reach out. Looking forward to seeing you on the water!</p>\n<p>Kind regards,<br /> Jack</p>\n<p>--</p>\n<p>Jack Killalea<br /> Sailing Director<br /> CYC Community Sailing<br /> <a href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a></p>",
+          "enabled": true
+        },
+        "endDate": {
+          "__type": "Date",
+          "iso": "2025-06-06T08:00:00.000Z"
+        },
+        "hide_spots_left": null,
+        "housing": null,
+        "housing_approval": null,
+        "housing_endDate": null,
+        "housing_excluded_clubs": null,
+        "housing_lastChanceDate": null,
+        "housing_startDate": null,
+        "imageCrop": null,
+        "imageURL": "https://d282wvk2qi4wzk.cloudfront.net/7bL0z6EPAx_campLogo_1723749228982",
+        "keywords": [
+          "c",
+          "cc",
+          "ccs",
+          "ccsc",
+          "ce",
+          "cen",
+          "cent",
+          "cente",
+          "center",
+          "co",
+          "com",
+          "comm",
+          "commu",
+          "commun",
+          "communi",
+          "communit",
+          "community",
+          "cy",
+          "cyc",
+          "t",
+          "te",
+          "tea",
+          "team",
+          "r",
+          "ra",
+          "rac",
+          "race",
+          "o",
+          "op",
+          "opt",
+          "opti",
+          "2",
+          "20",
+          "202",
+          "2025",
+          "s",
+          "sp",
+          "spr",
+          "spri",
+          "sprin",
+          "spring"
+        ],
+        "line1": null,
+        "line2": null,
+        "location": "Seattle, WA",
+        "name": "Spring 2025 Opti Race Team",
+        "note": "<p><strong>Opti Race Team Registration Help</strong></p><p>Sailors on the Opti Race Team are placed into one of two fleets: Green Fleet (Intermediate) or Gold Fleet (Advanced). Please contact <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a> for help with registration or to discuss which fleet is the best fit for your sailor. Do not sign up for a fleet you have not been recommended for.</p>",
+        "objectId": "pJ8ESRFQGc",
+        "paymentMethods": null,
+        "pending": false,
+        "public": true,
+        "registration_closed": false,
+        "require_method_on_file": null,
+        "show_participants_on_signup": false,
+        "startDate": {
+          "__type": "Date",
+          "iso": "2025-03-03T08:00:00.000Z"
+        },
+        "state": "WA",
+        "street": "7755 Seaview Ave NW",
+        "superAdmin": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "rPZaZPcoE6"
+        },
+        "updated_address": {
+          "__type": "Date",
+          "iso": "2025-02-06T21:02:41.747Z"
+        },
+        "updatedAt": "2025-02-06T21:48:50.838Z",
+        "waitlist_payments": "deferred",
+        "waitlist_updates": "manual",
+        "zip": "98117"
+      },
+      "campSessionIDArray": [
+        "0JIcvMiJeE"
+      ],
+      "classes": [
+        {
+          "__type": "Pointer",
+          "className": "campClasses",
+          "objectId": "tZlml1i6k8"
+        }
+      ],
+      "clubObject": {
+        "__type": "Pointer",
+        "className": "clubs",
+        "objectId": "nw6IMf9Bnq"
+      },
+      "confirmed_at": {
+        "__type": "Date",
+        "iso": "2025-02-07T05:28:06.620Z"
+      },
+      "createdAt": "2025-02-07T05:26:33.823Z",
+      "eventName": "spring 2025 opti race team",
+      "firstName": "Otto ",
+      "hold_expires": {
+        "__type": "Date",
+        "iso": "2025-02-07T05:37:35.723Z"
+      },
+      "hold_timestamp": 1738906055723,
+      "keywords": [
+        "t",
+        "te",
+        "tea",
+        "team",
+        "r",
+        "ra",
+        "rac",
+        "race",
+        "o",
+        "op",
+        "opt",
+        "opti",
+        "2",
+        "20",
+        "202",
+        "2025",
+        "s",
+        "sp",
+        "spr",
+        "spri",
+        "sprin",
+        "spring",
+        "ot",
+        "ott",
+        "otto",
+        "a",
+        "ay",
+        "ayl",
+        "ayle",
+        "ayles",
+        "aylesw",
+        "ayleswo",
+        "ayleswor",
+        "ayleswort",
+        "aylesworth"
+      ],
+      "lastName": "Aylesworth",
+      "members": [],
+      "objectId": "PDy16mjg7K",
+      "participantNames": [
+        "Otto Aylesworth"
+      ],
+      "participantsArray": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "KIAtZxQLbu": {
+              "read": true,
+              "write": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "read": true,
+              "write": true
+            }
+          },
+          "city": "Seattle",
+          "className": "participants",
+          "contactsArray": [],
+          "createdAt": "2025-02-07T05:27:33.431Z",
+          "customFieldsArray": [
+            {
+              "customFieldID": "3wI2Uo5qCj",
+              "response": "Lawton Elementary "
+            },
+            {
+              "customFieldID": "CZzHI7IZ7E",
+              "optionsObjectIDsArray": [
+                "ddRz7pywLU"
+              ],
+              "optionsStringsArray": [
+                "White/Caucasian/European"
+              ]
+            },
+            {
+              "customFieldID": "ZbBleD4enA",
+              "optionObjectID": "HjurTqziOb",
+              "response": "Single season of race team"
+            }
+          ],
+          "DOB": {
+            "__type": "Date",
+            "iso": "2013-11-23T00:00:00.000Z"
+          },
+          "email": "shelbymontgomery@hotmail.com",
+          "emergencyContact": "Shelby Montgomery ",
+          "emergencyMobile": "2066011063",
+          "emergencyRelationship": "Mom",
+          "firstName": "Otto ",
+          "gender": "male",
+          "hostMember": false,
+          "keywords": [
+            "a",
+            "ay",
+            "ayl",
+            "ayle",
+            "ayles",
+            "aylesw",
+            "ayleswo",
+            "ayleswor",
+            "ayleswort",
+            "aylesworth",
+            "o",
+            "ot",
+            "ott",
+            "otto"
+          ],
+          "lastName": "Aylesworth",
+          "medical": "None",
+          "medical_allergies": "None ",
+          "medical_meds": "None ",
+          "medical_tetanus": "12/07/2017",
+          "member_tbd": false,
+          "members": [],
+          "members_external": [],
+          "mobile": "2066011063",
+          "objectId": "bPJlC5JYBR",
+          "parentGuardianEmail": "shelbymontgomery@hotmail.com",
+          "parentGuardianEmail_secondary": "Jeffaylesworth@hotmail.com",
+          "parentGuardianMobile": "2066011063",
+          "parentGuardianMobile_secondary": "2069108458",
+          "parentGuardianName": "Shelby Montgomery",
+          "parentGuardianName_secondary": "Jeff Aylesworth",
+          "profileObject": {
+            "__type": "Pointer",
+            "className": "profiles",
+            "objectId": "aLcGMdSwHp"
+          },
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "PDy16mjg7K"
+          },
+          "state": "Wa",
+          "street": "3842 Williams Ave W",
+          "updatedAt": "2025-02-07T05:27:33.431Z",
+          "zip": "98199"
+        }
+      ],
+      "profilesArray": [
+        {
+          "__type": "Pointer",
+          "className": "profiles",
+          "objectId": "aLcGMdSwHp"
+        }
+      ],
+      "registration_hold": {
+        "__type": "Pointer",
+        "className": "registration_holds",
+        "objectId": "qYTAgK1wga"
+      },
+      "sessionJoinObjects": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "write": true
+            }
+          },
+          "archived": false,
+          "campClassObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              }
+            },
+            "archived": false,
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campClasses",
+            "clonedFrom": {
+              "__type": "Pointer",
+              "className": "campClasses",
+              "objectId": "jc0IJsMALS"
+            },
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2025-02-06T20:59:59.208Z",
+            "description": "<p>Green Fleet is the perfect next step for sailors ages 9-13 coming out of our summer camps, eager to dive into the rules and tactics of sail racing. Sailors at the end of a season of greeen fleet will be ready to begin sailing on the local Opti Race Circuit.</p>",
+            "entryCapsArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "Oplz2ozonS"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "UuG4L4z6O4"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "0Akj0XVm0P"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "XrmJgSQak4"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "pgGiYCz3Mh"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "I6FRveJGj6"
+              }
+            ],
+            "entryFeesArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "LGh3s1KXFN"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "9orhQ3WuWD"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "ORMTKt631Q"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "zlt22swmx6"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "tjSfNNEBLE"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "huh0242Q2W"
+              }
+            ],
+            "hidden": false,
+            "keywords": [
+              "u",
+              "un",
+              "und",
+              "unde",
+              "undef",
+              "undefi",
+              "undefin",
+              "undefine",
+              "undefined",
+              "f",
+              "fl",
+              "fle",
+              "flee",
+              "fleet",
+              "g",
+              "gr",
+              "gre",
+              "gree",
+              "green"
+            ],
+            "name": "Green Fleet",
+            "objectId": "tZlml1i6k8",
+            "productObject": {
+              "__type": "Pointer",
+              "className": "merch",
+              "objectId": "wWRAVdHR8V"
+            },
+            "required_waivers": [
+              {
+                "__type": "Pointer",
+                "className": "waivers",
+                "objectId": "gXFXxrpUyC"
+              }
+            ],
+            "updatedAt": "2025-02-06T21:40:34.978Z"
+          },
+          "campObject": {
+            "__type": "Pointer",
+            "className": "camps",
+            "objectId": "pJ8ESRFQGc"
+          },
+          "campSessionObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              },
+              "role:club_camps_nw6IMf9Bnq": {
+                "write": true
+              },
+              "rPZaZPcoE6": {
+                "write": true
+              }
+            },
+            "allClasses": false,
+            "campClassesArray": [
+              {
+                "__type": "Pointer",
+                "className": "campClasses",
+                "objectId": "tZlml1i6k8"
+              }
+            ],
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campSessions",
+            "createdAt": "2025-02-06T21:00:00.039Z",
+            "defaultFullCampSession": false,
+            "endDate": {
+              "__type": "Date",
+              "iso": "2025-06-06T07:00:00.000Z"
+            },
+            "name": "Tuesday and Thursday",
+            "objectId": "0JIcvMiJeE",
+            "startDate": {
+              "__type": "Date",
+              "iso": "2025-03-04T08:00:00.000Z"
+            },
+            "updatedAt": "2025-02-06T21:47:06.394Z"
+          },
+          "className": "registration_campSession",
+          "confirmed_at": {
+            "__type": "Date",
+            "iso": "2025-02-07T05:28:06.620Z"
+          },
+          "createdAt": "2025-02-07T05:26:34.222Z",
+          "held_or_confirmed": 1738906056788,
+          "hold": {
+            "__type": "Pointer",
+            "className": "registration_holds",
+            "objectId": "KxcqrvynzF"
+          },
+          "hold_expires": {
+            "__type": "Date",
+            "iso": "2025-02-07T05:37:35.723Z"
+          },
+          "hold_timestamp": 1738906056788,
+          "objectId": "bFBwThM2Ye",
+          "priority": 0,
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "PDy16mjg7K"
+          },
+          "status": "confirmed",
+          "updatedAt": "2025-02-07T05:28:07.227Z",
+          "waitlist": false,
+          "waitlist_updates": [
+            {
+              "reason": "initial_status",
+              "timestamp": 1738906086620,
+              "waitlist": false,
+              "waitlist_number": null
+            }
+          ]
+        }
+      ],
+      "sessions": [
+        {
+          "__type": "Pointer",
+          "className": "campSessions",
+          "objectId": "0JIcvMiJeE"
+        }
+      ],
+      "status": "confirmed",
+      "subclassesArray": [],
+      "superAdmin": {
+        "__type": "Pointer",
+        "className": "_User",
+        "objectId": "KIAtZxQLbu"
+      },
+      "type": "camp",
+      "updatedAt": "2025-02-07T05:28:09.596Z",
+      "userObjects": [
+        {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "KIAtZxQLbu"
+        }
+      ],
+      "waiver_status": "signatures_required"
+    },
+    {
+      "ACL": {
+        "*": {
+          "read": true
+        },
+        "Mz9EMZfYo3": {
+          "write": true
+        },
+        "role:camp_coaches_pJ8ESRFQGc": {
+          "write": true
+        }
+      },
+      "application": false,
+      "archived": false,
+      "billing_registration": {
+        "__type": "Object",
+        "ACL": {
+          "Mz9EMZfYo3": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "read": true
+          },
+          "role:club_finance_nw6IMf9Bnq": {
+            "read": true
+          }
+        },
+        "amount": 67145,
+        "amount_capturable": 0,
+        "amount_deferred": 0,
+        "amount_received": 67145,
+        "amountPending": 0,
+        "amountRefunded": 0,
+        "application_fee_amount": 0,
+        "className": "billing_registration",
+        "clubObject": {
+          "__type": "Pointer",
+          "className": "clubs",
+          "objectId": "nw6IMf9Bnq"
+        },
+        "createdAt": "2025-02-07T05:00:25.354Z",
+        "currency": "usd",
+        "customer": {
+          "__type": "Object",
+          "ACL": {
+            "Mz9EMZfYo3": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_basic_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_finance_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_pos_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_web_nw6IMf9Bnq": {
+              "read": true
+            }
+          },
+          "address": null,
+          "archived": false,
+          "className": "customers",
+          "clubObject": {
+            "__type": "Pointer",
+            "className": "clubs",
+            "objectId": "nw6IMf9Bnq"
+          },
+          "createdAt": "2025-02-07T05:04:06.948Z",
+          "customer_currency": null,
+          "default_source": null,
+          "delinquent": false,
+          "description": "Customer for guest_checkout_1738904386417",
+          "email": "ashleyabossi@gmail.com",
+          "invoice_settings": {
+            "custom_fields": null,
+            "default_payment_method": null,
+            "footer": null,
+            "rendering_options": null
+          },
+          "keywords": [
+            "a",
+            "as",
+            "ash",
+            "ashl",
+            "ashle",
+            "ashley",
+            "ashleya",
+            "ashleyab",
+            "ashleyabo",
+            "ashleyabos",
+            "ashleyaboss",
+            "ashleyabossi",
+            "ashleyabossi@",
+            "ashleyabossi@g",
+            "ashleyabossi@gm",
+            "ashleyabossi@gma",
+            "ashleyabossi@gmai",
+            "ashleyabossi@gmail",
+            "ashleyabossi@gmail.",
+            "ashleyabossi@gmail.c",
+            "ashleyabossi@gmail.co",
+            "ashleyabossi@gmail.com",
+            "g",
+            "gu",
+            "gue",
+            "gues",
+            "guest",
+            "guest_",
+            "guest_c",
+            "guest_ch",
+            "guest_che",
+            "guest_chec",
+            "guest_check",
+            "guest_checko",
+            "guest_checkou",
+            "guest_checkout",
+            "guest_checkout_",
+            "guest_checkout_1",
+            "guest_checkout_17",
+            "guest_checkout_173",
+            "guest_checkout_1738",
+            "guest_checkout_17389",
+            "guest_checkout_173890",
+            "guest_checkout_1738904",
+            "guest_checkout_17389043",
+            "guest_checkout_173890438",
+            "guest_checkout_1738904386",
+            "guest_checkout_17389043864",
+            "guest_checkout_173890438641",
+            "guest_checkout_1738904386417"
+          ],
+          "name": "guest_checkout_1738904386417",
+          "objectId": "JhZu7GmAqw",
+          "payment_methods": [
+            {
+              "allow_redisplay": "unspecified",
+              "billing_details": {
+                "address": {
+                  "city": null,
+                  "country": null,
+                  "line1": null,
+                  "line2": null,
+                  "postal_code": "98139",
+                  "state": null
+                },
+                "email": null,
+                "name": null,
+                "phone": null
+              },
+              "card": {
+                "brand": "visa",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "pass",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "display_brand": "visa",
+                "exp_month": 3,
+                "exp_year": 2026,
+                "fingerprint": "0AnIPZglQkBqa6eO",
+                "funding": "credit",
+                "generated_from": null,
+                "last4": "0835",
+                "networks": {
+                  "available": [
+                    "visa"
+                  ],
+                  "preferred": null
+                },
+                "regulated_status": "unregulated",
+                "three_d_secure_usage": {
+                  "supported": true
+                },
+                "wallet": null
+              },
+              "created": 1738904710,
+              "customer": "cus_RjC7Sdi3B1GR0I",
+              "id": "pm_1QpjkY4TQEm0s4zxxIfrjxR5",
+              "livemode": true,
+              "metadata": {},
+              "object": "payment_method",
+              "type": "card"
+            }
+          ],
+          "phone": null,
+          "preferred_locales": [],
+          "receipt_email": "ashleyabossi@gmail.com",
+          "shipping": null,
+          "sources": [],
+          "stripeAccount": {
+            "__type": "Pointer",
+            "className": "stripeAccounts",
+            "objectId": "JiXkH58wBC"
+          },
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "stripeCustomerID": "cus_RjC7Sdi3B1GR0I",
+          "updatedAt": "2025-02-07T05:05:11.729Z",
+          "userObjects": [
+            {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "Mz9EMZfYo3"
+            }
+          ]
+        },
+        "deferredAmountBilled": 0,
+        "discount": 0,
+        "objectId": "Oa9GW96eC4",
+        "processing_passed_on": 2145,
+        "processingFee": 1977,
+        "registrationObject": {
+          "__type": "Pointer",
+          "className": "registrations",
+          "objectId": "OZVT2hTE1Z"
+        },
+        "stripeAccount": {
+          "__type": "Pointer",
+          "className": "stripeAccounts",
+          "objectId": "JiXkH58wBC"
+        },
+        "tax": 0,
+        "updatedAt": "2025-02-07T05:05:18.741Z"
+      },
+      "campObject": {
+        "__type": "Object",
+        "account_guest_non_member": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "ACL": {
+          "*": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "write": true
+          },
+          "role:club_camps_nw6IMf9Bnq": {
+            "write": true
+          },
+          "rPZaZPcoE6": {
+            "write": true
+          }
+        },
+        "application_fees": null,
+        "archived": false,
+        "chartOfAccounts": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "city": "Seattle",
+        "className": "camps",
+        "cloned_from": {
+          "__type": "Pointer",
+          "className": "camps",
+          "objectId": "7bL0z6EPAx"
+        },
+        "clubObject": {
+          "__type": "Object",
+          "accounting_defaults": {
+            "camps": {
+              "guest_non_member": "R2poFtxOXR",
+              "sales": "R2poFtxOXR"
+            },
+            "regattas": {
+              "guest_non_member": "y5Rz2bm81Z",
+              "sales": "y5Rz2bm81Z"
+            }
+          },
+          "accounting_v2": true,
+          "ach_debit_v2": true,
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "write": true
+            }
+          },
+          "advanced_reporting": true,
+          "asset_clearing": true,
+          "balance_transactions": "none",
+          "billing": {
+            "__type": "Pointer",
+            "className": "billing",
+            "objectId": "CE9479SRc0"
+          },
+          "burgeeURL": "https://d282wvk2qi4wzk.cloudfront.net/nw6IMf9Bnq_burgee_1706126113415",
+          "city": "Seattle",
+          "className": "clubs",
+          "country": "US",
+          "createdAt": "2023-10-18T16:37:39.719Z",
+          "currency": "usd",
+          "custom_pos_items": false,
+          "default_products": {
+            "banquet_deposit": "BbHKj6EnEx",
+            "banquet_prepayment": "9DkTgKld6x",
+            "banquet_service_fee": "XnajnJdXxO",
+            "donation": "A0e0vvPAkv",
+            "invoice_late_fee": "NPFejgEK0g",
+            "membership_application_fees": "EFGRMFzgJM",
+            "membership_minimum": "8uIbSfwmbX",
+            "processing_passed_on": "frKFGE44Zl"
+          },
+          "email": "info@cyccommunitysailing.org",
+          "email_billing": "info@cyccommunitysailing.org",
+          "email_camps": "info@cyccommunitysailing.org",
+          "email_membership": "info@cyccommunitysailing.org",
+          "email_regattas": "info@cyccommunitysailing.org",
+          "hideCampsEntryList": true,
+          "keywords": [
+            "c",
+            "cy",
+            "cyc",
+            "co",
+            "com",
+            "comm",
+            "commu",
+            "commun",
+            "communi",
+            "communit",
+            "community",
+            "ce",
+            "cen",
+            "cent",
+            "cente",
+            "center",
+            "cc",
+            "ccs",
+            "ccsc"
+          ],
+          "last_created_regatta": {
+            "__type": "Date",
+            "iso": "2024-08-16T21:54:43.802Z"
+          },
+          "location": "Seattle, WA",
+          "mailchimpAccount": {
+            "__type": "Object",
+            "accountName": "CYC Community Sailing Center",
+            "ACL": {
+              "JZGxZNQV9n": {
+                "read": true
+              },
+              "role:club_admin_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_basic_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_comms_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_membership_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_web_nw6IMf9Bnq": {
+                "read": true
+              }
+            },
+            "className": "mailchimpAccounts",
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2023-12-15T02:27:57.213Z",
+            "credentials": {
+              "__type": "Pointer",
+              "className": "mailchimpCredentials",
+              "objectId": "DELn4ir0UZ"
+            },
+            "email": "mailchimp@cyccommunitysailing.org",
+            "objectId": "DXE9GjHsIa",
+            "primary_list": {
+              "__type": "Pointer",
+              "className": "email_lists",
+              "objectId": "ouzdwYBuXW"
+            },
+            "superAdmin": {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "JZGxZNQV9n"
+            },
+            "updatedAt": "2023-12-15T02:27:58.517Z"
+          },
+          "membership_settings": {
+            "__type": "Pointer",
+            "className": "club_membership_settings",
+            "objectId": "J1lemT8NJ7"
+          },
+          "name": "CYC Community Sailing Center",
+          "objectId": "nw6IMf9Bnq",
+          "payment_methods": [
+            "card",
+            "ach_debit"
+          ],
+          "print_server_v3": true,
+          "processing_passed_on": {
+            "card": 3.3
+          },
+          "processing_passed_on_dues": {
+            "card": 3.3,
+            "enable_for_member_invoices": true
+          },
+          "qb_auto_sync_v2": true,
+          "qbo_coa_imported": true,
+          "qbo_sync_after": {
+            "__type": "Date",
+            "iso": "2024-01-01T19:30:00.000Z"
+          },
+          "quickbooksAccount": {
+            "__type": "Pointer",
+            "className": "quickbooksAccounts",
+            "objectId": "BMPoJjekm3"
+          },
+          "ses_enabled": true,
+          "state": "WA",
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "subdomain": "cyccommunitysailingcenter",
+          "subtype_printers": true,
+          "superAdmin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "JZGxZNQV9n"
+          },
+          "support_admin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "jsD7H8LARe"
+          },
+          "tax_id": "93-4004507",
+          "tax_v2": true,
+          "timezone": "America/Los_Angeles",
+          "timezoneOffset": -7,
+          "transit_account": true,
+          "updated_address": {
+            "__type": "Date",
+            "iso": "2024-12-30T16:09:01.015Z"
+          },
+          "updatedAt": "2025-01-21T22:02:02.047Z",
+          "web_settings": {
+            "__type": "Pointer",
+            "className": "club_web_settings",
+            "objectId": "Mfr5kuCbTX"
+          },
+          "zip": "98101"
+        },
+        "collect_address": true,
+        "collect_dob": true,
+        "collect_gender": null,
+        "collect_insurance": null,
+        "collect_mobile": true,
+        "collect_parentGuardian": true,
+        "collect_parentGuardian_secondary": true,
+        "collect_pcp": null,
+        "collect_sailNumber": null,
+        "collect_weight": null,
+        "country": "US",
+        "createdAt": "2025-02-06T20:59:56.284Z",
+        "customFieldsArray": [
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "3wI2Uo5qCj"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "CZzHI7IZ7E"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "ZbBleD4enA"
+          }
+        ],
+        "description": null,
+        "email_welcome": {
+          "attachments": [],
+          "content": "<p>Thank you for registering for the CYC Community Sailing Opti Race Team! We&rsquo;re excited to have you join us for a great season of training, racing, and fun on the water.</p>\n<p>For program details, including practice schedules, regatta information, and updates, please visit <a href=\"https://www.cyccommunitysailing.org/program/opti-race-team\" target=\"_blank\" rel=\"noopener\">the Opti Race Team page.</a></p>\n<p>If you have any questions or need assistance, feel free to reach out. Looking forward to seeing you on the water!</p>\n<p>Kind regards,<br /> Jack</p>\n<p>--</p>\n<p>Jack Killalea<br /> Sailing Director<br /> CYC Community Sailing<br /> <a href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a></p>",
+          "enabled": true
+        },
+        "endDate": {
+          "__type": "Date",
+          "iso": "2025-06-06T08:00:00.000Z"
+        },
+        "hide_spots_left": null,
+        "housing": null,
+        "housing_approval": null,
+        "housing_endDate": null,
+        "housing_excluded_clubs": null,
+        "housing_lastChanceDate": null,
+        "housing_startDate": null,
+        "imageCrop": null,
+        "imageURL": "https://d282wvk2qi4wzk.cloudfront.net/7bL0z6EPAx_campLogo_1723749228982",
+        "keywords": [
+          "c",
+          "cc",
+          "ccs",
+          "ccsc",
+          "ce",
+          "cen",
+          "cent",
+          "cente",
+          "center",
+          "co",
+          "com",
+          "comm",
+          "commu",
+          "commun",
+          "communi",
+          "communit",
+          "community",
+          "cy",
+          "cyc",
+          "t",
+          "te",
+          "tea",
+          "team",
+          "r",
+          "ra",
+          "rac",
+          "race",
+          "o",
+          "op",
+          "opt",
+          "opti",
+          "2",
+          "20",
+          "202",
+          "2025",
+          "s",
+          "sp",
+          "spr",
+          "spri",
+          "sprin",
+          "spring"
+        ],
+        "line1": null,
+        "line2": null,
+        "location": "Seattle, WA",
+        "name": "Spring 2025 Opti Race Team",
+        "note": "<p><strong>Opti Race Team Registration Help</strong></p><p>Sailors on the Opti Race Team are placed into one of two fleets: Green Fleet (Intermediate) or Gold Fleet (Advanced). Please contact <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a> for help with registration or to discuss which fleet is the best fit for your sailor. Do not sign up for a fleet you have not been recommended for.</p>",
+        "objectId": "pJ8ESRFQGc",
+        "paymentMethods": null,
+        "pending": false,
+        "public": true,
+        "registration_closed": false,
+        "require_method_on_file": null,
+        "show_participants_on_signup": false,
+        "startDate": {
+          "__type": "Date",
+          "iso": "2025-03-03T08:00:00.000Z"
+        },
+        "state": "WA",
+        "street": "7755 Seaview Ave NW",
+        "superAdmin": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "rPZaZPcoE6"
+        },
+        "updated_address": {
+          "__type": "Date",
+          "iso": "2025-02-06T21:02:41.747Z"
+        },
+        "updatedAt": "2025-02-06T21:48:50.838Z",
+        "waitlist_payments": "deferred",
+        "waitlist_updates": "manual",
+        "zip": "98117"
+      },
+      "campSessionIDArray": [
+        "0JIcvMiJeE"
+      ],
+      "classes": [
+        {
+          "__type": "Pointer",
+          "className": "campClasses",
+          "objectId": "tZlml1i6k8"
+        }
+      ],
+      "clubObject": {
+        "__type": "Pointer",
+        "className": "clubs",
+        "objectId": "nw6IMf9Bnq"
+      },
+      "confirmed_at": {
+        "__type": "Date",
+        "iso": "2025-02-07T05:05:15.999Z"
+      },
+      "createdAt": "2025-02-07T05:00:25.255Z",
+      "eventName": "spring 2025 opti race team",
+      "firstName": "Ben",
+      "hold_expires": {
+        "__type": "Date",
+        "iso": "2025-02-07T05:13:58.902Z"
+      },
+      "hold_timestamp": 1738904638902,
+      "keywords": [
+        "t",
+        "te",
+        "tea",
+        "team",
+        "r",
+        "ra",
+        "rac",
+        "race",
+        "o",
+        "op",
+        "opt",
+        "opti",
+        "2",
+        "20",
+        "202",
+        "2025",
+        "s",
+        "sp",
+        "spr",
+        "spri",
+        "sprin",
+        "spring",
+        "b",
+        "be",
+        "ben",
+        "bo",
+        "bos",
+        "boss",
+        "bossi"
+      ],
+      "lastName": "Bossi",
+      "members": [],
+      "objectId": "OZVT2hTE1Z",
+      "participantNames": [
+        "Ben Bossi"
+      ],
+      "participantsArray": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "Mz9EMZfYo3": {
+              "read": true,
+              "write": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "read": true,
+              "write": true
+            }
+          },
+          "city": "Seattle",
+          "className": "participants",
+          "contactsArray": [],
+          "createdAt": "2025-02-07T05:03:56.822Z",
+          "customFieldsArray": [
+            {
+              "customFieldID": "3wI2Uo5qCj",
+              "response": "Lawton Elementary"
+            },
+            {
+              "customFieldID": "CZzHI7IZ7E",
+              "optionsObjectIDsArray": [
+                "ddRz7pywLU"
+              ],
+              "optionsStringsArray": [
+                "White/Caucasian/European"
+              ]
+            },
+            {
+              "customFieldID": "ZbBleD4enA",
+              "optionObjectID": "4BVXAYQlKE",
+              "response": "Some prior sailing experience"
+            }
+          ],
+          "DOB": {
+            "__type": "Date",
+            "iso": "2014-04-03T00:00:00.000Z"
+          },
+          "email": "ashleyabossi@gmail.com",
+          "emergencyContact": "Ashley Bossi",
+          "emergencyMobile": "2066188083",
+          "emergencyRelationship": "Mom",
+          "firstName": "Ben",
+          "gender": "male",
+          "hostMember": false,
+          "keywords": [
+            "b",
+            "bo",
+            "bos",
+            "boss",
+            "bossi",
+            "be",
+            "ben"
+          ],
+          "lastName": "Bossi",
+          "medical": "NA",
+          "medical_allergies": "NA",
+          "medical_meds": "NA",
+          "medical_tetanus": "4/10/2018",
+          "member_tbd": false,
+          "members": [],
+          "members_external": [],
+          "mobile": "2066188083",
+          "objectId": "CvMoYUGi1b",
+          "parentGuardianEmail": "ashleyabossi@gmail.com",
+          "parentGuardianEmail_secondary": "mrandmrsbossi@hotmail.com",
+          "parentGuardianMobile": "2066188083",
+          "parentGuardianMobile_secondary": "2063721711",
+          "parentGuardianName": "Ashley Bossi",
+          "parentGuardianName_secondary": "Joe Bossi",
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "OZVT2hTE1Z"
+          },
+          "state": "WA",
+          "street": "PO BOX 99234",
+          "updatedAt": "2025-02-07T05:03:56.822Z",
+          "zip": "98139"
+        }
+      ],
+      "registration_hold": {
+        "__type": "Pointer",
+        "className": "registration_holds",
+        "objectId": "NxvDLLRHc7"
+      },
+      "sessionJoinObjects": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "write": true
+            }
+          },
+          "archived": false,
+          "campClassObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              }
+            },
+            "archived": false,
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campClasses",
+            "clonedFrom": {
+              "__type": "Pointer",
+              "className": "campClasses",
+              "objectId": "jc0IJsMALS"
+            },
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2025-02-06T20:59:59.208Z",
+            "description": "<p>Green Fleet is the perfect next step for sailors ages 9-13 coming out of our summer camps, eager to dive into the rules and tactics of sail racing. Sailors at the end of a season of greeen fleet will be ready to begin sailing on the local Opti Race Circuit.</p>",
+            "entryCapsArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "Oplz2ozonS"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "UuG4L4z6O4"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "0Akj0XVm0P"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "XrmJgSQak4"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "pgGiYCz3Mh"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "I6FRveJGj6"
+              }
+            ],
+            "entryFeesArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "LGh3s1KXFN"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "9orhQ3WuWD"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "ORMTKt631Q"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "zlt22swmx6"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "tjSfNNEBLE"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "huh0242Q2W"
+              }
+            ],
+            "hidden": false,
+            "keywords": [
+              "u",
+              "un",
+              "und",
+              "unde",
+              "undef",
+              "undefi",
+              "undefin",
+              "undefine",
+              "undefined",
+              "f",
+              "fl",
+              "fle",
+              "flee",
+              "fleet",
+              "g",
+              "gr",
+              "gre",
+              "gree",
+              "green"
+            ],
+            "name": "Green Fleet",
+            "objectId": "tZlml1i6k8",
+            "productObject": {
+              "__type": "Pointer",
+              "className": "merch",
+              "objectId": "wWRAVdHR8V"
+            },
+            "required_waivers": [
+              {
+                "__type": "Pointer",
+                "className": "waivers",
+                "objectId": "gXFXxrpUyC"
+              }
+            ],
+            "updatedAt": "2025-02-06T21:40:34.978Z"
+          },
+          "campObject": {
+            "__type": "Pointer",
+            "className": "camps",
+            "objectId": "pJ8ESRFQGc"
+          },
+          "campSessionObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              },
+              "role:club_camps_nw6IMf9Bnq": {
+                "write": true
+              },
+              "rPZaZPcoE6": {
+                "write": true
+              }
+            },
+            "allClasses": false,
+            "campClassesArray": [
+              {
+                "__type": "Pointer",
+                "className": "campClasses",
+                "objectId": "tZlml1i6k8"
+              }
+            ],
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campSessions",
+            "createdAt": "2025-02-06T21:00:00.039Z",
+            "defaultFullCampSession": false,
+            "endDate": {
+              "__type": "Date",
+              "iso": "2025-06-06T07:00:00.000Z"
+            },
+            "name": "Tuesday and Thursday",
+            "objectId": "0JIcvMiJeE",
+            "startDate": {
+              "__type": "Date",
+              "iso": "2025-03-04T08:00:00.000Z"
+            },
+            "updatedAt": "2025-02-06T21:47:06.394Z"
+          },
+          "className": "registration_campSession",
+          "confirmed_at": {
+            "__type": "Date",
+            "iso": "2025-02-07T05:05:15.999Z"
+          },
+          "createdAt": "2025-02-07T05:00:25.670Z",
+          "held_or_confirmed": 1738904639998,
+          "hold": {
+            "__type": "Pointer",
+            "className": "registration_holds",
+            "objectId": "kSOW604rqN"
+          },
+          "hold_expires": {
+            "__type": "Date",
+            "iso": "2025-02-07T05:13:58.902Z"
+          },
+          "hold_timestamp": 1738904639998,
+          "objectId": "GIWplmRRo2",
+          "priority": 0,
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "OZVT2hTE1Z"
+          },
+          "status": "confirmed",
+          "updatedAt": "2025-02-07T05:05:16.642Z",
+          "waitlist": false,
+          "waitlist_updates": [
+            {
+              "reason": "initial_status",
+              "timestamp": 1738904716000,
+              "waitlist": false,
+              "waitlist_number": null
+            }
+          ]
+        }
+      ],
+      "sessions": [
+        {
+          "__type": "Pointer",
+          "className": "campSessions",
+          "objectId": "0JIcvMiJeE"
+        }
+      ],
+      "status": "confirmed",
+      "subclassesArray": [],
+      "superAdmin": {
+        "__type": "Pointer",
+        "className": "_User",
+        "objectId": "Mz9EMZfYo3"
+      },
+      "type": "camp",
+      "updatedAt": "2025-02-07T05:11:37.602Z",
+      "userObjects": [
+        {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "Mz9EMZfYo3"
+        }
+      ],
+      "waiver_status": "fully_signed"
+    },
+    {
+      "ACL": {
+        "*": {
+          "read": true
+        },
+        "role:camp_coaches_pJ8ESRFQGc": {
+          "write": true
+        },
+        "Zq3F0z2zYG": {
+          "write": true
+        }
+      },
+      "application": false,
+      "archived": false,
+      "billing_registration": {
+        "__type": "Object",
+        "ACL": {
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "read": true
+          },
+          "role:club_finance_nw6IMf9Bnq": {
+            "read": true
+          },
+          "Zq3F0z2zYG": {
+            "read": true
+          }
+        },
+        "amount": 67145,
+        "amount_capturable": 0,
+        "amount_deferred": 0,
+        "amount_received": 67145,
+        "amountPending": 0,
+        "amountRefunded": 0,
+        "application_fee_amount": 0,
+        "className": "billing_registration",
+        "clubObject": {
+          "__type": "Pointer",
+          "className": "clubs",
+          "objectId": "nw6IMf9Bnq"
+        },
+        "createdAt": "2025-02-07T00:38:47.955Z",
+        "currency": "usd",
+        "customer": {
+          "__type": "Object",
+          "ACL": {
+            "role:club_admin_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_basic_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_finance_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_pos_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_web_nw6IMf9Bnq": {
+              "read": true
+            },
+            "Zq3F0z2zYG": {
+              "read": true
+            }
+          },
+          "address": null,
+          "archived": false,
+          "balance": 0,
+          "className": "customers",
+          "clubObject": {
+            "__type": "Pointer",
+            "className": "clubs",
+            "objectId": "nw6IMf9Bnq"
+          },
+          "createdAt": "2024-03-18T21:49:28.890Z",
+          "customer_currency": null,
+          "default_source": null,
+          "delinquent": false,
+          "description": "Customer for Naida",
+          "email": "nadinma@gmail.com",
+          "invoice_settings": {
+            "custom_fields": null,
+            "default_payment_method": null,
+            "footer": null,
+            "rendering_options": null
+          },
+          "keywords": [
+            "n",
+            "na",
+            "nad",
+            "nadi",
+            "nadin",
+            "nadinm",
+            "nadinma",
+            "nadinma@",
+            "nadinma@g",
+            "nadinma@gm",
+            "nadinma@gma",
+            "nadinma@gmai",
+            "nadinma@gmail",
+            "nadinma@gmail.",
+            "nadinma@gmail.c",
+            "nadinma@gmail.co",
+            "nadinma@gmail.com",
+            "nai",
+            "naid",
+            "naida"
+          ],
+          "name": "Naida",
+          "objectId": "GRSUIIc4Ft",
+          "payment_methods": [
+            {
+              "billing_details": {
+                "address": {
+                  "city": null,
+                  "country": null,
+                  "line1": null,
+                  "line2": null,
+                  "postal_code": "98199",
+                  "state": null
+                },
+                "email": null,
+                "name": null,
+                "phone": null
+              },
+              "card": {
+                "brand": "mastercard",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "unavailable",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "display_brand": "mastercard",
+                "exp_month": 2,
+                "exp_year": 2029,
+                "fingerprint": "f10ezXdkrwW6FQgf",
+                "funding": "credit",
+                "generated_from": null,
+                "last4": "6533",
+                "networks": {
+                  "available": [
+                    "mastercard"
+                  ],
+                  "preferred": null
+                },
+                "three_d_secure_usage": {
+                  "supported": true
+                },
+                "wallet": {
+                  "dynamic_last4": null,
+                  "link": {},
+                  "type": "link"
+                }
+              },
+              "created": 1710798620,
+              "customer": "cus_PlKj8uQsWJ1sSA",
+              "id": "pm_1Ovo4W4TQEm0s4zxnSakHbc8",
+              "livemode": true,
+              "metadata": {},
+              "object": "payment_method",
+              "type": "card"
+            }
+          ],
+          "phone": null,
+          "preferred_locales": [],
+          "receipt_email": "nadinma@gmail.com",
+          "shipping": null,
+          "sources": [],
+          "stripeAccount": {
+            "__type": "Pointer",
+            "className": "stripeAccounts",
+            "objectId": "JiXkH58wBC"
+          },
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "stripeCustomerID": "cus_PlKj8uQsWJ1sSA",
+          "updatedAt": "2024-03-18T21:50:23.945Z",
+          "userObjects": [
+            {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "Zq3F0z2zYG"
+            }
+          ]
+        },
+        "deferredAmountBilled": 0,
+        "discount": 0,
+        "objectId": "w288ZrRyJd",
+        "processing_passed_on": 2145,
+        "processingFee": 1977,
+        "registrationObject": {
+          "__type": "Pointer",
+          "className": "registrations",
+          "objectId": "rpOj6gP0zA"
+        },
+        "stripeAccount": {
+          "__type": "Pointer",
+          "className": "stripeAccounts",
+          "objectId": "JiXkH58wBC"
+        },
+        "tax": 0,
+        "updatedAt": "2025-02-07T00:40:38.204Z"
+      },
+      "campObject": {
+        "__type": "Object",
+        "account_guest_non_member": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "ACL": {
+          "*": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "write": true
+          },
+          "role:club_camps_nw6IMf9Bnq": {
+            "write": true
+          },
+          "rPZaZPcoE6": {
+            "write": true
+          }
+        },
+        "application_fees": null,
+        "archived": false,
+        "chartOfAccounts": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "city": "Seattle",
+        "className": "camps",
+        "cloned_from": {
+          "__type": "Pointer",
+          "className": "camps",
+          "objectId": "7bL0z6EPAx"
+        },
+        "clubObject": {
+          "__type": "Object",
+          "accounting_defaults": {
+            "camps": {
+              "guest_non_member": "R2poFtxOXR",
+              "sales": "R2poFtxOXR"
+            },
+            "regattas": {
+              "guest_non_member": "y5Rz2bm81Z",
+              "sales": "y5Rz2bm81Z"
+            }
+          },
+          "accounting_v2": true,
+          "ach_debit_v2": true,
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "write": true
+            }
+          },
+          "advanced_reporting": true,
+          "asset_clearing": true,
+          "balance_transactions": "none",
+          "billing": {
+            "__type": "Pointer",
+            "className": "billing",
+            "objectId": "CE9479SRc0"
+          },
+          "burgeeURL": "https://d282wvk2qi4wzk.cloudfront.net/nw6IMf9Bnq_burgee_1706126113415",
+          "city": "Seattle",
+          "className": "clubs",
+          "country": "US",
+          "createdAt": "2023-10-18T16:37:39.719Z",
+          "currency": "usd",
+          "custom_pos_items": false,
+          "default_products": {
+            "banquet_deposit": "BbHKj6EnEx",
+            "banquet_prepayment": "9DkTgKld6x",
+            "banquet_service_fee": "XnajnJdXxO",
+            "donation": "A0e0vvPAkv",
+            "invoice_late_fee": "NPFejgEK0g",
+            "membership_application_fees": "EFGRMFzgJM",
+            "membership_minimum": "8uIbSfwmbX",
+            "processing_passed_on": "frKFGE44Zl"
+          },
+          "email": "info@cyccommunitysailing.org",
+          "email_billing": "info@cyccommunitysailing.org",
+          "email_camps": "info@cyccommunitysailing.org",
+          "email_membership": "info@cyccommunitysailing.org",
+          "email_regattas": "info@cyccommunitysailing.org",
+          "hideCampsEntryList": true,
+          "keywords": [
+            "c",
+            "cy",
+            "cyc",
+            "co",
+            "com",
+            "comm",
+            "commu",
+            "commun",
+            "communi",
+            "communit",
+            "community",
+            "ce",
+            "cen",
+            "cent",
+            "cente",
+            "center",
+            "cc",
+            "ccs",
+            "ccsc"
+          ],
+          "last_created_regatta": {
+            "__type": "Date",
+            "iso": "2024-08-16T21:54:43.802Z"
+          },
+          "location": "Seattle, WA",
+          "mailchimpAccount": {
+            "__type": "Object",
+            "accountName": "CYC Community Sailing Center",
+            "ACL": {
+              "JZGxZNQV9n": {
+                "read": true
+              },
+              "role:club_admin_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_basic_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_comms_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_membership_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_web_nw6IMf9Bnq": {
+                "read": true
+              }
+            },
+            "className": "mailchimpAccounts",
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2023-12-15T02:27:57.213Z",
+            "credentials": {
+              "__type": "Pointer",
+              "className": "mailchimpCredentials",
+              "objectId": "DELn4ir0UZ"
+            },
+            "email": "mailchimp@cyccommunitysailing.org",
+            "objectId": "DXE9GjHsIa",
+            "primary_list": {
+              "__type": "Pointer",
+              "className": "email_lists",
+              "objectId": "ouzdwYBuXW"
+            },
+            "superAdmin": {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "JZGxZNQV9n"
+            },
+            "updatedAt": "2023-12-15T02:27:58.517Z"
+          },
+          "membership_settings": {
+            "__type": "Pointer",
+            "className": "club_membership_settings",
+            "objectId": "J1lemT8NJ7"
+          },
+          "name": "CYC Community Sailing Center",
+          "objectId": "nw6IMf9Bnq",
+          "payment_methods": [
+            "card",
+            "ach_debit"
+          ],
+          "print_server_v3": true,
+          "processing_passed_on": {
+            "card": 3.3
+          },
+          "processing_passed_on_dues": {
+            "card": 3.3,
+            "enable_for_member_invoices": true
+          },
+          "qb_auto_sync_v2": true,
+          "qbo_coa_imported": true,
+          "qbo_sync_after": {
+            "__type": "Date",
+            "iso": "2024-01-01T19:30:00.000Z"
+          },
+          "quickbooksAccount": {
+            "__type": "Pointer",
+            "className": "quickbooksAccounts",
+            "objectId": "BMPoJjekm3"
+          },
+          "ses_enabled": true,
+          "state": "WA",
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "subdomain": "cyccommunitysailingcenter",
+          "subtype_printers": true,
+          "superAdmin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "JZGxZNQV9n"
+          },
+          "support_admin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "jsD7H8LARe"
+          },
+          "tax_id": "93-4004507",
+          "tax_v2": true,
+          "timezone": "America/Los_Angeles",
+          "timezoneOffset": -7,
+          "transit_account": true,
+          "updated_address": {
+            "__type": "Date",
+            "iso": "2024-12-30T16:09:01.015Z"
+          },
+          "updatedAt": "2025-01-21T22:02:02.047Z",
+          "web_settings": {
+            "__type": "Pointer",
+            "className": "club_web_settings",
+            "objectId": "Mfr5kuCbTX"
+          },
+          "zip": "98101"
+        },
+        "collect_address": true,
+        "collect_dob": true,
+        "collect_gender": null,
+        "collect_insurance": null,
+        "collect_mobile": true,
+        "collect_parentGuardian": true,
+        "collect_parentGuardian_secondary": true,
+        "collect_pcp": null,
+        "collect_sailNumber": null,
+        "collect_weight": null,
+        "country": "US",
+        "createdAt": "2025-02-06T20:59:56.284Z",
+        "customFieldsArray": [
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "3wI2Uo5qCj"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "CZzHI7IZ7E"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "ZbBleD4enA"
+          }
+        ],
+        "description": null,
+        "email_welcome": {
+          "attachments": [],
+          "content": "<p>Thank you for registering for the CYC Community Sailing Opti Race Team! We&rsquo;re excited to have you join us for a great season of training, racing, and fun on the water.</p>\n<p>For program details, including practice schedules, regatta information, and updates, please visit <a href=\"https://www.cyccommunitysailing.org/program/opti-race-team\" target=\"_blank\" rel=\"noopener\">the Opti Race Team page.</a></p>\n<p>If you have any questions or need assistance, feel free to reach out. Looking forward to seeing you on the water!</p>\n<p>Kind regards,<br /> Jack</p>\n<p>--</p>\n<p>Jack Killalea<br /> Sailing Director<br /> CYC Community Sailing<br /> <a href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a></p>",
+          "enabled": true
+        },
+        "endDate": {
+          "__type": "Date",
+          "iso": "2025-06-06T08:00:00.000Z"
+        },
+        "hide_spots_left": null,
+        "housing": null,
+        "housing_approval": null,
+        "housing_endDate": null,
+        "housing_excluded_clubs": null,
+        "housing_lastChanceDate": null,
+        "housing_startDate": null,
+        "imageCrop": null,
+        "imageURL": "https://d282wvk2qi4wzk.cloudfront.net/7bL0z6EPAx_campLogo_1723749228982",
+        "keywords": [
+          "c",
+          "cc",
+          "ccs",
+          "ccsc",
+          "ce",
+          "cen",
+          "cent",
+          "cente",
+          "center",
+          "co",
+          "com",
+          "comm",
+          "commu",
+          "commun",
+          "communi",
+          "communit",
+          "community",
+          "cy",
+          "cyc",
+          "t",
+          "te",
+          "tea",
+          "team",
+          "r",
+          "ra",
+          "rac",
+          "race",
+          "o",
+          "op",
+          "opt",
+          "opti",
+          "2",
+          "20",
+          "202",
+          "2025",
+          "s",
+          "sp",
+          "spr",
+          "spri",
+          "sprin",
+          "spring"
+        ],
+        "line1": null,
+        "line2": null,
+        "location": "Seattle, WA",
+        "name": "Spring 2025 Opti Race Team",
+        "note": "<p><strong>Opti Race Team Registration Help</strong></p><p>Sailors on the Opti Race Team are placed into one of two fleets: Green Fleet (Intermediate) or Gold Fleet (Advanced). Please contact <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a> for help with registration or to discuss which fleet is the best fit for your sailor. Do not sign up for a fleet you have not been recommended for.</p>",
+        "objectId": "pJ8ESRFQGc",
+        "paymentMethods": null,
+        "pending": false,
+        "public": true,
+        "registration_closed": false,
+        "require_method_on_file": null,
+        "show_participants_on_signup": false,
+        "startDate": {
+          "__type": "Date",
+          "iso": "2025-03-03T08:00:00.000Z"
+        },
+        "state": "WA",
+        "street": "7755 Seaview Ave NW",
+        "superAdmin": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "rPZaZPcoE6"
+        },
+        "updated_address": {
+          "__type": "Date",
+          "iso": "2025-02-06T21:02:41.747Z"
+        },
+        "updatedAt": "2025-02-06T21:48:50.838Z",
+        "waitlist_payments": "deferred",
+        "waitlist_updates": "manual",
+        "zip": "98117"
+      },
+      "campSessionIDArray": [
+        "0JIcvMiJeE"
+      ],
+      "classes": [
+        {
+          "__type": "Pointer",
+          "className": "campClasses",
+          "objectId": "tZlml1i6k8"
+        }
+      ],
+      "clubObject": {
+        "__type": "Pointer",
+        "className": "clubs",
+        "objectId": "nw6IMf9Bnq"
+      },
+      "confirmed_at": {
+        "__type": "Date",
+        "iso": "2025-02-07T00:40:34.758Z"
+      },
+      "createdAt": "2025-02-07T00:38:47.860Z",
+      "eventName": "spring 2025 opti race team",
+      "firstName": "Ray ",
+      "hold_expires": {
+        "__type": "Date",
+        "iso": "2025-02-07T00:50:10.296Z"
+      },
+      "hold_timestamp": 1738888810295,
+      "keywords": [
+        "t",
+        "te",
+        "tea",
+        "team",
+        "r",
+        "ra",
+        "rac",
+        "race",
+        "o",
+        "op",
+        "opt",
+        "opti",
+        "2",
+        "20",
+        "202",
+        "2025",
+        "s",
+        "sp",
+        "spr",
+        "spri",
+        "sprin",
+        "spring",
+        "ray",
+        "v",
+        "vo",
+        "vol",
+        "volk",
+        "volko",
+        "volkov"
+      ],
+      "lastName": "Volkov",
+      "members": [],
+      "objectId": "rpOj6gP0zA",
+      "participantNames": [
+        "Ray Volkov"
+      ],
+      "participantsArray": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "read": true,
+              "write": true
+            },
+            "Zq3F0z2zYG": {
+              "read": true,
+              "write": true
+            }
+          },
+          "city": "Seattle",
+          "className": "participants",
+          "contactsArray": [],
+          "createdAt": "2025-02-07T00:40:07.881Z",
+          "customFieldsArray": [
+            {
+              "customFieldID": "3wI2Uo5qCj",
+              "response": "Seattle Waldorf School "
+            },
+            {
+              "customFieldID": "CZzHI7IZ7E",
+              "optionsObjectIDsArray": [
+                "ddRz7pywLU"
+              ],
+              "optionsStringsArray": [
+                "White/Caucasian/European"
+              ]
+            },
+            {
+              "customFieldID": "ZbBleD4enA",
+              "optionObjectID": "4BVXAYQlKE",
+              "response": "Some prior sailing experience"
+            }
+          ],
+          "DOB": {
+            "__type": "Date",
+            "iso": "2016-12-26T00:00:00.000Z"
+          },
+          "email": "nadinma@gmail.com",
+          "emergencyContact": "Naida Volkov",
+          "emergencyMobile": "4153287471",
+          "emergencyRelationship": "mother",
+          "firstName": "Ray ",
+          "gender": "female",
+          "hostMember": false,
+          "keywords": [
+            "v",
+            "vo",
+            "vol",
+            "volk",
+            "volko",
+            "volkov",
+            "r",
+            "ra",
+            "ray"
+          ],
+          "lastName": "Volkov",
+          "medical": "N/A",
+          "medical_allergies": "No",
+          "medical_meds": "NO",
+          "medical_tetanus": "on time ",
+          "member_tbd": false,
+          "members": [],
+          "members_external": [],
+          "mobile": "4153287471",
+          "objectId": "p9jNarZnPI",
+          "parentGuardianEmail": "nadinma@gmail.com",
+          "parentGuardianEmail_secondary": "antonvv@me.com",
+          "parentGuardianMobile": "4153287471",
+          "parentGuardianMobile_secondary": "6505345606",
+          "parentGuardianName": "Naida Volkov",
+          "parentGuardianName_secondary": "Anton Volkov",
+          "profileObject": {
+            "__type": "Pointer",
+            "className": "profiles",
+            "objectId": "BSiwqYZsqd"
+          },
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "rpOj6gP0zA"
+          },
+          "state": "WA",
+          "street": "3614 29th str W",
+          "updatedAt": "2025-02-07T00:40:07.881Z",
+          "zip": "98199"
+        }
+      ],
+      "profilesArray": [
+        {
+          "__type": "Pointer",
+          "className": "profiles",
+          "objectId": "BSiwqYZsqd"
+        }
+      ],
+      "registration_hold": {
+        "__type": "Pointer",
+        "className": "registration_holds",
+        "objectId": "pVaxCmz3QA"
+      },
+      "sessionJoinObjects": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "write": true
+            }
+          },
+          "archived": false,
+          "campClassObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              }
+            },
+            "archived": false,
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campClasses",
+            "clonedFrom": {
+              "__type": "Pointer",
+              "className": "campClasses",
+              "objectId": "jc0IJsMALS"
+            },
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2025-02-06T20:59:59.208Z",
+            "description": "<p>Green Fleet is the perfect next step for sailors ages 9-13 coming out of our summer camps, eager to dive into the rules and tactics of sail racing. Sailors at the end of a season of greeen fleet will be ready to begin sailing on the local Opti Race Circuit.</p>",
+            "entryCapsArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "Oplz2ozonS"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "UuG4L4z6O4"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "0Akj0XVm0P"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "XrmJgSQak4"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "pgGiYCz3Mh"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "I6FRveJGj6"
+              }
+            ],
+            "entryFeesArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "LGh3s1KXFN"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "9orhQ3WuWD"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "ORMTKt631Q"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "zlt22swmx6"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "tjSfNNEBLE"
+              },
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "huh0242Q2W"
+              }
+            ],
+            "hidden": false,
+            "keywords": [
+              "u",
+              "un",
+              "und",
+              "unde",
+              "undef",
+              "undefi",
+              "undefin",
+              "undefine",
+              "undefined",
+              "f",
+              "fl",
+              "fle",
+              "flee",
+              "fleet",
+              "g",
+              "gr",
+              "gre",
+              "gree",
+              "green"
+            ],
+            "name": "Green Fleet",
+            "objectId": "tZlml1i6k8",
+            "productObject": {
+              "__type": "Pointer",
+              "className": "merch",
+              "objectId": "wWRAVdHR8V"
+            },
+            "required_waivers": [
+              {
+                "__type": "Pointer",
+                "className": "waivers",
+                "objectId": "gXFXxrpUyC"
+              }
+            ],
+            "updatedAt": "2025-02-06T21:40:34.978Z"
+          },
+          "campObject": {
+            "__type": "Pointer",
+            "className": "camps",
+            "objectId": "pJ8ESRFQGc"
+          },
+          "campSessionObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              },
+              "role:club_camps_nw6IMf9Bnq": {
+                "write": true
+              },
+              "rPZaZPcoE6": {
+                "write": true
+              }
+            },
+            "allClasses": false,
+            "campClassesArray": [
+              {
+                "__type": "Pointer",
+                "className": "campClasses",
+                "objectId": "tZlml1i6k8"
+              }
+            ],
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campSessions",
+            "createdAt": "2025-02-06T21:00:00.039Z",
+            "defaultFullCampSession": false,
+            "endDate": {
+              "__type": "Date",
+              "iso": "2025-06-06T07:00:00.000Z"
+            },
+            "name": "Tuesday and Thursday",
+            "objectId": "0JIcvMiJeE",
+            "startDate": {
+              "__type": "Date",
+              "iso": "2025-03-04T08:00:00.000Z"
+            },
+            "updatedAt": "2025-02-06T21:47:06.394Z"
+          },
+          "className": "registration_campSession",
+          "confirmed_at": {
+            "__type": "Date",
+            "iso": "2025-02-07T00:40:34.758Z"
+          },
+          "createdAt": "2025-02-07T00:38:48.270Z",
+          "held_or_confirmed": 1738888811350,
+          "hold": {
+            "__type": "Pointer",
+            "className": "registration_holds",
+            "objectId": "VrSpvehsff"
+          },
+          "hold_expires": {
+            "__type": "Date",
+            "iso": "2025-02-07T00:50:10.296Z"
+          },
+          "hold_timestamp": 1738888811350,
+          "objectId": "1Tr45JScHh",
+          "priority": 0,
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "rpOj6gP0zA"
+          },
+          "status": "confirmed",
+          "updatedAt": "2025-02-07T00:40:35.381Z",
+          "waitlist": false,
+          "waitlist_updates": [
+            {
+              "reason": "initial_status",
+              "timestamp": 1738888834758,
+              "waitlist": false,
+              "waitlist_number": null
+            }
+          ]
+        }
+      ],
+      "sessions": [
+        {
+          "__type": "Pointer",
+          "className": "campSessions",
+          "objectId": "0JIcvMiJeE"
+        }
+      ],
+      "status": "confirmed",
+      "subclassesArray": [],
+      "superAdmin": {
+        "__type": "Pointer",
+        "className": "_User",
+        "objectId": "Zq3F0z2zYG"
+      },
+      "type": "camp",
+      "updatedAt": "2025-02-07T00:40:38.166Z",
+      "userObjects": [
+        {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "Zq3F0z2zYG"
+        }
+      ],
+      "waiver_status": "signatures_required"
+    },
+    {
+      "ACL": {
+        "*": {
+          "read": true
+        },
+        "JZGxZNQV9n": {
+          "write": true
+        },
+        "role:camp_coaches_pJ8ESRFQGc": {
+          "write": true
+        }
+      },
+      "application": false,
+      "archived": false,
+      "billing_registration": {
+        "__type": "Object",
+        "ACL": {
+          "JZGxZNQV9n": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "read": true
+          },
+          "role:club_finance_nw6IMf9Bnq": {
+            "read": true
+          }
+        },
+        "amount": 67145,
+        "amount_capturable": 0,
+        "amount_deferred": 0,
+        "amount_received": 67145,
+        "amountPending": 0,
+        "amountRefunded": 0,
+        "application_fee_amount": 0,
+        "className": "billing_registration",
+        "clubObject": {
+          "__type": "Pointer",
+          "className": "clubs",
+          "objectId": "nw6IMf9Bnq"
+        },
+        "createdAt": "2025-02-07T00:09:46.988Z",
+        "currency": "usd",
+        "customer": {
+          "__type": "Object",
+          "ACL": {
+            "JZGxZNQV9n": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_basic_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_finance_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_pos_nw6IMf9Bnq": {
+              "read": true
+            },
+            "role:club_web_nw6IMf9Bnq": {
+              "read": true
+            }
+          },
+          "address": null,
+          "archived": false,
+          "balance": 0,
+          "className": "customers",
+          "clubObject": {
+            "__type": "Pointer",
+            "className": "clubs",
+            "objectId": "nw6IMf9Bnq"
+          },
+          "createdAt": "2024-02-06T01:01:49.632Z",
+          "customer_currency": null,
+          "default_source": null,
+          "delinquent": false,
+          "description": "Customer for Jason Walker",
+          "email": "abirdnamed@gmail.com",
+          "invoice_settings": {
+            "custom_fields": null,
+            "default_payment_method": null,
+            "footer": null,
+            "rendering_options": null
+          },
+          "keywords": [
+            "a",
+            "ab",
+            "abi",
+            "abir",
+            "abird",
+            "abirdn",
+            "abirdna",
+            "abirdnam",
+            "abirdname",
+            "abirdnamed",
+            "abirdnamed@",
+            "abirdnamed@g",
+            "abirdnamed@gm",
+            "abirdnamed@gma",
+            "abirdnamed@gmai",
+            "abirdnamed@gmail",
+            "abirdnamed@gmail.",
+            "abirdnamed@gmail.c",
+            "abirdnamed@gmail.co",
+            "abirdnamed@gmail.com",
+            "w",
+            "wa",
+            "wal",
+            "walk",
+            "walke",
+            "walker",
+            "j",
+            "ja",
+            "jas",
+            "jaso",
+            "jason"
+          ],
+          "name": "Jason Walker",
+          "objectId": "fkJAYaqS3D",
+          "payment_methods": [
+            {
+              "billing_details": {
+                "address": {
+                  "city": null,
+                  "country": null,
+                  "line1": null,
+                  "line2": null,
+                  "postal_code": "98117",
+                  "state": null
+                },
+                "email": null,
+                "name": null,
+                "phone": null
+              },
+              "card": {
+                "brand": "visa",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "unavailable",
+                  "cvc_check": "unavailable"
+                },
+                "country": "US",
+                "exp_month": 10,
+                "exp_year": 2026,
+                "fingerprint": "qhdeVexniWCe8Jko",
+                "funding": "credit",
+                "generated_from": null,
+                "last4": "8861",
+                "networks": {
+                  "available": [
+                    "visa"
+                  ],
+                  "preferred": null
+                },
+                "three_d_secure_usage": {
+                  "supported": true
+                },
+                "wallet": null
+              },
+              "created": 1707181342,
+              "customer": "cus_PVeLza8PScOEGF",
+              "id": "pm_1Ogd3J4TQEm0s4zxWVfm5wqG",
+              "livemode": true,
+              "metadata": {},
+              "object": "payment_method",
+              "type": "card"
+            }
+          ],
+          "phone": null,
+          "preferred_locales": [],
+          "receipt_email": "abirdnamed@gmail.com",
+          "shipping": null,
+          "sources": [],
+          "stripeAccount": {
+            "__type": "Pointer",
+            "className": "stripeAccounts",
+            "objectId": "JiXkH58wBC"
+          },
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "stripeCustomerID": "cus_PVeLza8PScOEGF",
+          "updatedAt": "2024-02-06T01:02:25.470Z",
+          "userObjects": [
+            {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "JZGxZNQV9n"
+            }
+          ]
+        },
+        "deferredAmountBilled": 0,
+        "discount": 0,
+        "objectId": "xoBS773DPQ",
+        "processing_passed_on": 2145,
+        "processingFee": 1977,
+        "registrationObject": {
+          "__type": "Pointer",
+          "className": "registrations",
+          "objectId": "fOZPNGga9z"
+        },
+        "stripeAccount": {
+          "__type": "Pointer",
+          "className": "stripeAccounts",
+          "objectId": "JiXkH58wBC"
+        },
+        "tax": 0,
+        "updatedAt": "2025-02-07T00:13:03.553Z"
+      },
+      "campObject": {
+        "__type": "Object",
+        "account_guest_non_member": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "ACL": {
+          "*": {
+            "read": true
+          },
+          "role:camp_coaches_pJ8ESRFQGc": {
+            "write": true
+          },
+          "role:club_camps_nw6IMf9Bnq": {
+            "write": true
+          },
+          "rPZaZPcoE6": {
+            "write": true
+          }
+        },
+        "application_fees": null,
+        "archived": false,
+        "chartOfAccounts": {
+          "__type": "Pointer",
+          "className": "chartOfAccounts",
+          "objectId": "MdWDV3DYM5"
+        },
+        "city": "Seattle",
+        "className": "camps",
+        "cloned_from": {
+          "__type": "Pointer",
+          "className": "camps",
+          "objectId": "7bL0z6EPAx"
+        },
+        "clubObject": {
+          "__type": "Object",
+          "accounting_defaults": {
+            "camps": {
+              "guest_non_member": "R2poFtxOXR",
+              "sales": "R2poFtxOXR"
+            },
+            "regattas": {
+              "guest_non_member": "y5Rz2bm81Z",
+              "sales": "y5Rz2bm81Z"
+            }
+          },
+          "accounting_v2": true,
+          "ach_debit_v2": true,
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:club_admin_nw6IMf9Bnq": {
+              "write": true
+            }
+          },
+          "advanced_reporting": true,
+          "asset_clearing": true,
+          "balance_transactions": "none",
+          "billing": {
+            "__type": "Pointer",
+            "className": "billing",
+            "objectId": "CE9479SRc0"
+          },
+          "burgeeURL": "https://d282wvk2qi4wzk.cloudfront.net/nw6IMf9Bnq_burgee_1706126113415",
+          "city": "Seattle",
+          "className": "clubs",
+          "country": "US",
+          "createdAt": "2023-10-18T16:37:39.719Z",
+          "currency": "usd",
+          "custom_pos_items": false,
+          "default_products": {
+            "banquet_deposit": "BbHKj6EnEx",
+            "banquet_prepayment": "9DkTgKld6x",
+            "banquet_service_fee": "XnajnJdXxO",
+            "donation": "A0e0vvPAkv",
+            "invoice_late_fee": "NPFejgEK0g",
+            "membership_application_fees": "EFGRMFzgJM",
+            "membership_minimum": "8uIbSfwmbX",
+            "processing_passed_on": "frKFGE44Zl"
+          },
+          "email": "info@cyccommunitysailing.org",
+          "email_billing": "info@cyccommunitysailing.org",
+          "email_camps": "info@cyccommunitysailing.org",
+          "email_membership": "info@cyccommunitysailing.org",
+          "email_regattas": "info@cyccommunitysailing.org",
+          "hideCampsEntryList": true,
+          "keywords": [
+            "c",
+            "cy",
+            "cyc",
+            "co",
+            "com",
+            "comm",
+            "commu",
+            "commun",
+            "communi",
+            "communit",
+            "community",
+            "ce",
+            "cen",
+            "cent",
+            "cente",
+            "center",
+            "cc",
+            "ccs",
+            "ccsc"
+          ],
+          "last_created_regatta": {
+            "__type": "Date",
+            "iso": "2024-08-16T21:54:43.802Z"
+          },
+          "location": "Seattle, WA",
+          "mailchimpAccount": {
+            "__type": "Object",
+            "accountName": "CYC Community Sailing Center",
+            "ACL": {
+              "JZGxZNQV9n": {
+                "read": true
+              },
+              "role:club_admin_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_basic_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_comms_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_membership_nw6IMf9Bnq": {
+                "read": true
+              },
+              "role:club_web_nw6IMf9Bnq": {
+                "read": true
+              }
+            },
+            "className": "mailchimpAccounts",
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2023-12-15T02:27:57.213Z",
+            "credentials": {
+              "__type": "Pointer",
+              "className": "mailchimpCredentials",
+              "objectId": "DELn4ir0UZ"
+            },
+            "email": "mailchimp@cyccommunitysailing.org",
+            "objectId": "DXE9GjHsIa",
+            "primary_list": {
+              "__type": "Pointer",
+              "className": "email_lists",
+              "objectId": "ouzdwYBuXW"
+            },
+            "superAdmin": {
+              "__type": "Pointer",
+              "className": "_User",
+              "objectId": "JZGxZNQV9n"
+            },
+            "updatedAt": "2023-12-15T02:27:58.517Z"
+          },
+          "membership_settings": {
+            "__type": "Pointer",
+            "className": "club_membership_settings",
+            "objectId": "J1lemT8NJ7"
+          },
+          "name": "CYC Community Sailing Center",
+          "objectId": "nw6IMf9Bnq",
+          "payment_methods": [
+            "card",
+            "ach_debit"
+          ],
+          "print_server_v3": true,
+          "processing_passed_on": {
+            "card": 3.3
+          },
+          "processing_passed_on_dues": {
+            "card": 3.3,
+            "enable_for_member_invoices": true
+          },
+          "qb_auto_sync_v2": true,
+          "qbo_coa_imported": true,
+          "qbo_sync_after": {
+            "__type": "Date",
+            "iso": "2024-01-01T19:30:00.000Z"
+          },
+          "quickbooksAccount": {
+            "__type": "Pointer",
+            "className": "quickbooksAccounts",
+            "objectId": "BMPoJjekm3"
+          },
+          "ses_enabled": true,
+          "state": "WA",
+          "stripeAccountID": "acct_1O5sTd4TQEm0s4zx",
+          "subdomain": "cyccommunitysailingcenter",
+          "subtype_printers": true,
+          "superAdmin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "JZGxZNQV9n"
+          },
+          "support_admin": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "jsD7H8LARe"
+          },
+          "tax_id": "93-4004507",
+          "tax_v2": true,
+          "timezone": "America/Los_Angeles",
+          "timezoneOffset": -7,
+          "transit_account": true,
+          "updated_address": {
+            "__type": "Date",
+            "iso": "2024-12-30T16:09:01.015Z"
+          },
+          "updatedAt": "2025-01-21T22:02:02.047Z",
+          "web_settings": {
+            "__type": "Pointer",
+            "className": "club_web_settings",
+            "objectId": "Mfr5kuCbTX"
+          },
+          "zip": "98101"
+        },
+        "collect_address": true,
+        "collect_dob": true,
+        "collect_gender": null,
+        "collect_insurance": null,
+        "collect_mobile": true,
+        "collect_parentGuardian": true,
+        "collect_parentGuardian_secondary": true,
+        "collect_pcp": null,
+        "collect_sailNumber": null,
+        "collect_weight": null,
+        "country": "US",
+        "createdAt": "2025-02-06T20:59:56.284Z",
+        "customFieldsArray": [
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "3wI2Uo5qCj"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "CZzHI7IZ7E"
+          },
+          {
+            "__type": "Pointer",
+            "className": "customFields",
+            "objectId": "ZbBleD4enA"
+          }
+        ],
+        "description": null,
+        "email_welcome": {
+          "attachments": [],
+          "content": "<p>Thank you for registering for the CYC Community Sailing Opti Race Team! We&rsquo;re excited to have you join us for a great season of training, racing, and fun on the water.</p>\n<p>For program details, including practice schedules, regatta information, and updates, please visit <a href=\"https://www.cyccommunitysailing.org/program/opti-race-team\" target=\"_blank\" rel=\"noopener\">the Opti Race Team page.</a></p>\n<p>If you have any questions or need assistance, feel free to reach out. Looking forward to seeing you on the water!</p>\n<p>Kind regards,<br /> Jack</p>\n<p>--</p>\n<p>Jack Killalea<br /> Sailing Director<br /> CYC Community Sailing<br /> <a href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a></p>",
+          "enabled": true
+        },
+        "endDate": {
+          "__type": "Date",
+          "iso": "2025-06-06T08:00:00.000Z"
+        },
+        "hide_spots_left": null,
+        "housing": null,
+        "housing_approval": null,
+        "housing_endDate": null,
+        "housing_excluded_clubs": null,
+        "housing_lastChanceDate": null,
+        "housing_startDate": null,
+        "imageCrop": null,
+        "imageURL": "https://d282wvk2qi4wzk.cloudfront.net/7bL0z6EPAx_campLogo_1723749228982",
+        "keywords": [
+          "c",
+          "cc",
+          "ccs",
+          "ccsc",
+          "ce",
+          "cen",
+          "cent",
+          "cente",
+          "center",
+          "co",
+          "com",
+          "comm",
+          "commu",
+          "commun",
+          "communi",
+          "communit",
+          "community",
+          "cy",
+          "cyc",
+          "t",
+          "te",
+          "tea",
+          "team",
+          "r",
+          "ra",
+          "rac",
+          "race",
+          "o",
+          "op",
+          "opt",
+          "opti",
+          "2",
+          "20",
+          "202",
+          "2025",
+          "s",
+          "sp",
+          "spr",
+          "spri",
+          "sprin",
+          "spring"
+        ],
+        "line1": null,
+        "line2": null,
+        "location": "Seattle, WA",
+        "name": "Spring 2025 Opti Race Team",
+        "note": "<p><strong>Opti Race Team Registration Help</strong></p><p>Sailors on the Opti Race Team are placed into one of two fleets: Green Fleet (Intermediate) or Gold Fleet (Advanced). Please contact <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:jack@cyccommunitysailing.org\">jack@cyccommunitysailing.org</a> for help with registration or to discuss which fleet is the best fit for your sailor. Do not sign up for a fleet you have not been recommended for.</p>",
+        "objectId": "pJ8ESRFQGc",
+        "paymentMethods": null,
+        "pending": false,
+        "public": true,
+        "registration_closed": false,
+        "require_method_on_file": null,
+        "show_participants_on_signup": false,
+        "startDate": {
+          "__type": "Date",
+          "iso": "2025-03-03T08:00:00.000Z"
+        },
+        "state": "WA",
+        "street": "7755 Seaview Ave NW",
+        "superAdmin": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "rPZaZPcoE6"
+        },
+        "updated_address": {
+          "__type": "Date",
+          "iso": "2025-02-06T21:02:41.747Z"
+        },
+        "updatedAt": "2025-02-06T21:48:50.838Z",
+        "waitlist_payments": "deferred",
+        "waitlist_updates": "manual",
+        "zip": "98117"
+      },
+      "campSessionIDArray": [
+        "EgmL56SJpE"
+      ],
+      "classes": [
+        {
+          "__type": "Pointer",
+          "className": "campClasses",
+          "objectId": "4cHwvdnN3M"
+        }
+      ],
+      "clubObject": {
+        "__type": "Pointer",
+        "className": "clubs",
+        "objectId": "nw6IMf9Bnq"
+      },
+      "confirmed_at": {
+        "__type": "Date",
+        "iso": "2025-02-07T00:11:22.878Z"
+      },
+      "createdAt": "2025-02-07T00:09:46.900Z",
+      "eventName": "spring 2025 opti race team",
+      "firstName": "Jayden",
+      "hold_expires": {
+        "__type": "Date",
+        "iso": "2025-02-07T00:20:46.989Z"
+      },
+      "hold_timestamp": 1738887046989,
+      "keywords": [
+        "t",
+        "te",
+        "tea",
+        "team",
+        "r",
+        "ra",
+        "rac",
+        "race",
+        "o",
+        "op",
+        "opt",
+        "opti",
+        "2",
+        "20",
+        "202",
+        "2025",
+        "s",
+        "sp",
+        "spr",
+        "spri",
+        "sprin",
+        "spring",
+        "j",
+        "ja",
+        "jay",
+        "jayd",
+        "jayde",
+        "jayden",
+        "w",
+        "wa",
+        "wal",
+        "walk",
+        "walke",
+        "walker"
+      ],
+      "lastName": "Walker",
+      "members": [],
+      "objectId": "fOZPNGga9z",
+      "participantNames": [
+        "Jayden Walker"
+      ],
+      "participantsArray": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "JZGxZNQV9n": {
+              "read": true,
+              "write": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "read": true,
+              "write": true
+            }
+          },
+          "city": "Seattle",
+          "className": "participants",
+          "contactsArray": [],
+          "createdAt": "2025-02-07T00:10:43.028Z",
+          "customFieldsArray": [
+            {
+              "customFieldID": "3wI2Uo5qCj",
+              "response": "The Evergreen School"
+            },
+            {
+              "customFieldID": "CZzHI7IZ7E",
+              "optionsObjectIDsArray": [
+                "WzIJBOratk",
+                "ddRz7pywLU"
+              ],
+              "optionsStringsArray": [
+                "Asian/Asian American",
+                "White/Caucasian/European"
+              ]
+            },
+            {
+              "customFieldID": "ZbBleD4enA",
+              "optionObjectID": "23WW2N2oTz",
+              "response": "Multiple seasons on race team and multiple local regattas attended"
+            }
+          ],
+          "DOB": {
+            "__type": "Date",
+            "iso": "2012-11-03T00:00:00.000Z"
+          },
+          "email": "jayden@onetrue.name",
+          "emergencyContact": "Jason Walker",
+          "emergencyMobile": "2083714653",
+          "emergencyRelationship": "Father",
+          "firstName": "Jayden",
+          "gender": "male",
+          "hostMember": false,
+          "keywords": [
+            "w",
+            "wa",
+            "wal",
+            "walk",
+            "walke",
+            "walker",
+            "j",
+            "ja",
+            "jay",
+            "jayd",
+            "jayde",
+            "jayden"
+          ],
+          "lastName": "Walker",
+          "medical": "None",
+          "medical_allergies": "None",
+          "medical_meds": "None",
+          "medical_tetanus": "Unknown",
+          "member_tbd": false,
+          "members": [],
+          "members_external": [],
+          "mobile": "2083714653",
+          "objectId": "ZpZfHGxltK",
+          "parentGuardianEmail": "abirdnamed@gmail.com",
+          "parentGuardianEmail_secondary": "jason@onetrue.name",
+          "parentGuardianMobile": "2083923547",
+          "parentGuardianMobile_secondary": "2083714653",
+          "parentGuardianName": "Xiuqiong Walker",
+          "parentGuardianName_secondary": "Jason Walker",
+          "profileObject": {
+            "__type": "Pointer",
+            "className": "profiles",
+            "objectId": "c7jtG8594a"
+          },
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "fOZPNGga9z"
+          },
+          "state": "Washington",
+          "street": "8050 26th Ave NW",
+          "updatedAt": "2025-02-07T00:10:43.028Z",
+          "zip": "98117"
+        }
+      ],
+      "profilesArray": [
+        {
+          "__type": "Pointer",
+          "className": "profiles",
+          "objectId": "c7jtG8594a"
+        }
+      ],
+      "registration_hold": {
+        "__type": "Pointer",
+        "className": "registration_holds",
+        "objectId": "ni2ukFgfRO"
+      },
+      "sessionJoinObjects": [
+        {
+          "__type": "Object",
+          "ACL": {
+            "*": {
+              "read": true
+            },
+            "role:camp_coaches_pJ8ESRFQGc": {
+              "write": true
+            }
+          },
+          "archived": false,
+          "campClassObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              }
+            },
+            "archived": false,
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campClasses",
+            "clonedFrom": {
+              "__type": "Pointer",
+              "className": "campClasses",
+              "objectId": "cstN3qws3A"
+            },
+            "clubObject": {
+              "__type": "Pointer",
+              "className": "clubs",
+              "objectId": "nw6IMf9Bnq"
+            },
+            "createdAt": "2025-02-06T20:59:58.700Z",
+            "description": "<p>Gold Fleet is designed for sailors ages 10-15 who have been on the race team for multiple seasons and are ready to tackle more advanced tactics and strategies while racing competitively in the local race circuit.</p>",
+            "entryCapsArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryCaps",
+                "objectId": "QaNe0JYKKH"
+              }
+            ],
+            "entryFeesArray": [
+              {
+                "__type": "Pointer",
+                "className": "entryFees",
+                "objectId": "SDdIJGWqpA"
+              }
+            ],
+            "hidden": false,
+            "keywords": [
+              "u",
+              "un",
+              "und",
+              "unde",
+              "undef",
+              "undefi",
+              "undefin",
+              "undefine",
+              "undefined",
+              "f",
+              "fl",
+              "fle",
+              "flee",
+              "fleet",
+              "g",
+              "go",
+              "gol",
+              "gold"
+            ],
+            "name": "Gold Fleet",
+            "objectId": "4cHwvdnN3M",
+            "productObject": {
+              "__type": "Pointer",
+              "className": "merch",
+              "objectId": "JeJf3iUT1F"
+            },
+            "required_waivers": [
+              {
+                "__type": "Pointer",
+                "className": "waivers",
+                "objectId": "gXFXxrpUyC"
+              }
+            ],
+            "updatedAt": "2025-02-06T21:40:23.598Z"
+          },
+          "campObject": {
+            "__type": "Pointer",
+            "className": "camps",
+            "objectId": "pJ8ESRFQGc"
+          },
+          "campSessionObject": {
+            "__type": "Object",
+            "ACL": {
+              "*": {
+                "read": true
+              },
+              "role:camp_coaches_pJ8ESRFQGc": {
+                "write": true
+              },
+              "role:club_camps_nw6IMf9Bnq": {
+                "write": true
+              },
+              "rPZaZPcoE6": {
+                "write": true
+              }
+            },
+            "allClasses": false,
+            "campClassesArray": [
+              {
+                "__type": "Pointer",
+                "className": "campClasses",
+                "objectId": "4cHwvdnN3M"
+              }
+            ],
+            "campObject": {
+              "__type": "Pointer",
+              "className": "camps",
+              "objectId": "pJ8ESRFQGc"
+            },
+            "className": "campSessions",
+            "createdAt": "2025-02-06T21:00:00.039Z",
+            "defaultFullCampSession": false,
+            "endDate": {
+              "__type": "Date",
+              "iso": "2025-06-06T07:00:00.000Z"
+            },
+            "name": "Monday and Wednesday",
+            "objectId": "EgmL56SJpE",
+            "startDate": {
+              "__type": "Date",
+              "iso": "2025-03-03T08:00:00.000Z"
+            },
+            "updatedAt": "2025-02-06T21:46:03.392Z"
+          },
+          "className": "registration_campSession",
+          "confirmed_at": {
+            "__type": "Date",
+            "iso": "2025-02-07T00:11:22.878Z"
+          },
+          "createdAt": "2025-02-07T00:09:47.288Z",
+          "held_or_confirmed": 1738887048277,
+          "hold": {
+            "__type": "Pointer",
+            "className": "registration_holds",
+            "objectId": "4bU3Onu9DI"
+          },
+          "hold_expires": {
+            "__type": "Date",
+            "iso": "2025-02-07T00:20:46.989Z"
+          },
+          "hold_timestamp": 1738887048277,
+          "objectId": "6V6xOry4O2",
+          "priority": 0,
+          "registrationObject": {
+            "__type": "Pointer",
+            "className": "registrations",
+            "objectId": "fOZPNGga9z"
+          },
+          "status": "confirmed",
+          "updatedAt": "2025-02-07T00:11:23.574Z",
+          "waitlist": false,
+          "waitlist_updates": [
+            {
+              "reason": "initial_status",
+              "timestamp": 1738887082878,
+              "waitlist": false,
+              "waitlist_number": null
+            }
+          ]
+        }
+      ],
+      "sessions": [
+        {
+          "__type": "Pointer",
+          "className": "campSessions",
+          "objectId": "EgmL56SJpE"
+        }
+      ],
+      "status": "confirmed",
+      "subclassesArray": [],
+      "superAdmin": {
+        "__type": "Pointer",
+        "className": "_User",
+        "objectId": "JZGxZNQV9n"
+      },
+      "type": "camp",
+      "updatedAt": "2025-02-07T00:29:30.812Z",
+      "userObjects": [
+        {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "JZGxZNQV9n"
+        }
+      ],
+      "waiver_status": "fully_signed"
+    }
+  ]
+}
